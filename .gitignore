@@ -17,3 +17,6 @@ desktop.ini
 
 # Logs
 *.log
+
+# Internal documents (not for public site)
+Relevant info/
