@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>6th LTES Forum | IRENA</title>
     <meta name="description" content="Join the 6th Forum on Long-term Energy Scenarios, October 29-30, 2025 in Bonn, Germany.">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <div class="header__container">
-            <a href="#" class="header__logo">IRENA LTES FORUM</a>
+            <div class="header__logo-section">
+                <img src="images/ltes-initiative.png" alt="Long-term Scenarios for the Energy Transition Initiative" class="header__logo-img">
+                <img src="images/ltes-network.jpg" alt="LTES Network" class="header__logo-img">
+            </div>
             <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
                 <span aria-hidden="true">☰</span>
             </button>
@@ -78,7 +82,7 @@
                 <h2 class="section__title">About the Forum</h2>
             </div>
 
-            <div style="max-width: 900px; margin: 0 auto;">
+            <div class="content-wrapper">
                 <p>Government energy planners face evolving challenges in the global energy landscape, including integrating emerging technologies, managing geopolitical risks, and aligning planning with climate commitments and sustainable development goals.</p>
 
                 <p>Long-term energy scenarios (LTES) are critical tools for addressing these complexities, strengthening institutional processes, and guiding policymaking for resilient clean energy transitions.</p>
@@ -326,6 +330,115 @@
         </div>
     </section>
 
+    <!-- Speakers Section -->
+    <section class="section section--gray" id="speakers">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__eyebrow">Featured</span>
+                <h2 class="section__title">Meet Our Speakers</h2>
+                <p class="section__description">Leading experts and practitioners in long-term energy scenarios and planning</p>
+            </div>
+
+            <div class="speakers-carousel">
+                <button class="carousel-btn carousel-btn--prev" id="prevBtn" aria-label="Previous speakers">
+                    <span>‹</span>
+                </button>
+
+                <div class="speakers-viewport">
+                    <div class="speakers-track" id="speakersTrack">
+                    <!-- Speaker 1 -->
+                    <div class="speaker-card" data-speaker="carlos-ruiz">
+                        <div class="speaker-card__image">
+                            <img src="images/speakers/carlos-ruiz.jpg" alt="Carlos Ruiz Sanchez" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="speaker-card__placeholder">CR</div>
+                        </div>
+                        <h3 class="speaker-card__name">Carlos Ruiz Sanchez</h3>
+                        <p class="speaker-card__org">UNFCCC</p>
+                    </div>
+
+                    <!-- Speaker 2 -->
+                    <div class="speaker-card" data-speaker="juan-garcia">
+                        <div class="speaker-card__image">
+                            <img src="images/speakers/juan-garcia.jpg" alt="Juan Jose Garcia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="speaker-card__placeholder">JG</div>
+                        </div>
+                        <h3 class="speaker-card__name">Juan Jose Garcia</h3>
+                        <p class="speaker-card__org">IRENA</p>
+                    </div>
+
+                    <!-- Speaker 3 -->
+                    <div class="speaker-card" data-speaker="stelios-grafakos">
+                        <div class="speaker-card__image">
+                            <img src="images/speakers/stelios-grafakos.jpg" alt="Stelios Grafakos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="speaker-card__placeholder">SG</div>
+                        </div>
+                        <h3 class="speaker-card__name">Stelios Grafakos</h3>
+                        <p class="speaker-card__org">GGGI</p>
+                    </div>
+
+                    <!-- Speaker 4 -->
+                    <div class="speaker-card" data-speaker="charlie-heaps">
+                        <div class="speaker-card__image">
+                            <img src="images/speakers/charlie-heaps.jpg" alt="Charlie Heaps" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="speaker-card__placeholder">CH</div>
+                        </div>
+                        <h3 class="speaker-card__name">Charlie Heaps</h3>
+                        <p class="speaker-card__org">Stockholm Environment Institute</p>
+                    </div>
+
+                    <!-- Speaker 5 -->
+                    <div class="speaker-card" data-speaker="sebastian-debia">
+                        <div class="speaker-card__image">
+                            <img src="images/speakers/sebastian-debia.jpg" alt="Sebastien Debia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="speaker-card__placeholder">SD</div>
+                        </div>
+                        <h3 class="speaker-card__name">Sebastien Debia</h3>
+                        <p class="speaker-card__org">Natural Resources Canada</p>
+                    </div>
+
+                    <!-- Speaker 6 -->
+                    <div class="speaker-card" data-speaker="lars-jensen">
+                        <div class="speaker-card__image">
+                            <img src="images/speakers/lars-jensen.jpg" alt="Lars Georg Jensen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="speaker-card__placeholder">LJ</div>
+                        </div>
+                        <h3 class="speaker-card__name">Lars Georg Jensen</h3>
+                        <p class="speaker-card__org">Danish Energy Agency</p>
+                    </div>
+
+                    <!-- Add more speakers as needed -->
+                    </div>
+                </div>
+
+                <button class="carousel-btn carousel-btn--next" id="nextBtn" aria-label="Next speakers">
+                    <span>›</span>
+                </button>
+            </div>
+
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- Speaker Modal -->
+    <div class="modal" id="speakerModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal__overlay" id="modalOverlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="modalClose" aria-label="Close modal">&times;</button>
+            <div class="modal__body">
+                <div class="modal__image">
+                    <img id="modalImage" src="" alt="">
+                    <div class="modal__placeholder" id="modalPlaceholder"></div>
+                </div>
+                <div class="modal__info">
+                    <h2 class="modal__name" id="modalName"></h2>
+                    <p class="modal__title" id="modalTitle"></p>
+                    <p class="modal__institution" id="modalInstitution"></p>
+                    <div class="modal__bio" id="modalBio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Themes Section -->
     <section class="section" id="themes">
         <div class="container">
@@ -367,7 +480,7 @@
                 <h2 class="section__title">Forum Agenda</h2>
             </div>
 
-            <div style="max-width: 900px; margin: 0 auto;">
+            <div class="content-wrapper">
                 <div class="agenda__day">
                     <h3 class="agenda__day-title">Day 1: October 29, 2025 — Building Institutional Frameworks</h3>
                     <ul class="agenda__list">
@@ -445,9 +558,9 @@
                 <h2 class="section__title">Practical Information</h2>
             </div>
 
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="color: var(--color-teal); font-size: var(--text-xl); margin-bottom: var(--space-4);">Venue</h3>
-                <p style="margin-bottom: var(--space-8);">
+            <div class="content-wrapper">
+                <h3 class="logistics__heading">Venue</h3>
+                <p class="logistics__text">
                     <strong>IRENA Innovation and Technology Center</strong><br>
                     Thomas-Dehler-Haus<br>
                     Willy-Brandt-Allee 20<br>
@@ -455,18 +568,18 @@
                     Phone: +49 228 391 79085
                 </p>
 
-                <h3 style="color: var(--color-teal); font-size: var(--text-xl); margin-bottom: var(--space-4);">Format</h3>
-                <p style="margin-bottom: var(--space-8);">The Forum will take place in a <strong>hybrid format</strong> (on-site and virtual), with limited on-site spots prioritized for LTES Network members, partners, and speakers. Virtual participation will ensure broad access.</p>
+                <h3 class="logistics__heading">Format</h3>
+                <p class="logistics__text">The Forum will take place in a <strong>hybrid format</strong> (on-site and virtual), with limited on-site spots prioritized for LTES Network members, partners, and speakers. Virtual participation will ensure broad access.</p>
 
-                <h3 style="color: var(--color-teal); font-size: var(--text-xl); margin-bottom: var(--space-4);">Getting to the Venue</h3>
-                <ul class="agenda__list" style="margin-bottom: var(--space-8);">
+                <h3 class="logistics__heading">Getting to the Venue</h3>
+                <ul class="agenda__list logistics__list">
                     <li class="agenda__item">From Bonn Central Station: Take trams 16, 63, or 66 to Heussallee/Museumsmeile station</li>
                     <li class="agenda__item">Walking distance: Approximately 2.7 km (34 minutes) from Bonn HBF</li>
                     <li class="agenda__item">The IITC building is located directly above the tram stop</li>
                 </ul>
 
-                <h3 style="color: var(--color-teal); font-size: var(--text-xl); margin-bottom: var(--space-4);">Meals & Events</h3>
-                <p style="margin-bottom: var(--space-8);">Lunch and coffee will be provided at the IRENA IITC premises during both conference days. Registered participants are invited to a welcome dinner on Day 1 and a farewell reception on Day 2.</p>
+                <h3 class="logistics__heading">Meals & Events</h3>
+                <p class="logistics__text">Lunch and coffee will be provided at the IRENA IITC premises during both conference days. Registered participants are invited to a welcome dinner on Day 1 and a farewell reception on Day 2.</p>
 
                 <div class="alert">
                     <div class="alert__title">Dietary Requirements</div>
@@ -519,23 +632,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__container">
-            <h2 class="footer__title">6th LTES Forum 2025</h2>
-            <div class="footer__content">
-                <p><strong>International Renewable Energy Agency (IRENA)</strong></p>
-                <p>Global Network on Long-term Energy Scenarios | Clean Energy Ministerial Initiative</p>
-                <div class="footer__links">
-                    <a href="https://www.irena.org" target="_blank" rel="noopener noreferrer">www.irena.org</a>
-                    <span style="color: rgba(255,255,255,0.5); margin: 0 1rem;">|</span>
-                    <a href="mailto:LTES@irena.org">LTES@irena.org</a>
-                </div>
-                <p class="footer__copyright">© 2025 International Renewable Energy Agency</p>
-            </div>
-        </div>
-    </footer>
 
     <script src="js/main.js"></script>
 </body>
