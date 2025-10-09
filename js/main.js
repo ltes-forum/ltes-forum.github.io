@@ -149,6 +149,181 @@
     }
 
     /**
+     * Session Data - Content from session concept notes
+     * Content should be populated from files in "Relevant info/01_Concept and Agenda/Session concept notes/"
+     */
+    const sessionData = {
+        '1': {
+            number: '1',
+            meta: 'Day 1 • 9:30-11:15',
+            title: 'Long-term Energy Scenarios Frameworks and NDC Alignment in Practice',
+            cohost: 'Co-host: UNFCCC',
+            concept: `
+                <p>This session explores how countries integrate long-term energy scenario planning with their Nationally Determined Contributions (NDCs) and climate commitments.</p>
+                <p>Practitioners will share experiences on aligning energy modeling frameworks with international climate goals, discussing challenges and best practices in creating coherent, actionable pathways for the energy transition.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>Integration of LTES with NDCs and long-term climate strategies</li>
+                    <li>Methodological approaches for alignment</li>
+                    <li>Case studies from member countries</li>
+                    <li>Tools and frameworks for effective coordination</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 1_LTES frameworks and NDC alignment in practice_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '2': {
+            number: '2',
+            meta: 'Day 1 • 11:45-13:15',
+            title: 'Turning Grid Planning into Bankable Grid Pipelines',
+            cohost: 'Co-host: Brazil - GCEP',
+            concept: `
+                <p>This session examines the critical bridge between energy scenario planning and investment mobilization.</p>
+                <p>Focus on translating long-term grid expansion plans into concrete, financeable infrastructure projects that attract private and public investment.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>From planning to bankable projects</li>
+                    <li>De-risking strategies for grid infrastructure</li>
+                    <li>Engaging financial institutions</li>
+                    <li>Success stories and lessons learned</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 2_Planning to Investment_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '3': {
+            number: '3',
+            meta: 'Day 1 • 14:15-15:45',
+            title: 'Communicating Scenarios to Build Strong Public and Political Support',
+            cohost: 'Co-host: Natural Resources Canada',
+            concept: `
+                <p>This session addresses the challenge of effectively communicating complex energy scenarios to diverse stakeholders.</p>
+                <p>Explores strategies for transparent communication, stakeholder engagement, and building public trust in energy transition pathways.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>Communication strategies for different audiences</li>
+                    <li>Visualization and data presentation techniques</li>
+                    <li>Stakeholder engagement best practices</li>
+                    <li>Building trust and credibility</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 3_Communicating scenarios _Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '4': {
+            number: '4',
+            meta: 'Day 1 • 16:15-17:45',
+            title: 'Institutional Considerations for Adopting Modelling Tools',
+            cohost: 'Co-host: GET.transform',
+            concept: `
+                <p>This session discusses practical aspects of selecting and implementing energy modeling tools within government institutions.</p>
+                <p>Focus on open-source solutions, capacity building, and creating sustainable in-house modeling capabilities.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>Tool selection criteria and considerations</li>
+                    <li>Open-source vs. proprietary solutions</li>
+                    <li>Capacity building strategies</li>
+                    <li>Institutional arrangements for sustained modeling capabilities</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 4_Adopting Modelling Tools_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '5': {
+            number: '5',
+            meta: 'Day 2 • 9:30-11:00',
+            title: 'Addressing Supply Chain Uncertainties',
+            cohost: 'Co-host: European Commission JRC',
+            concept: `
+                <p>This session explores how to incorporate supply chain risks and uncertainties into long-term energy planning.</p>
+                <p>Addresses critical mineral dependencies, technology supply constraints, and strategies for building resilient energy supply chains.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>Critical materials and supply chain vulnerabilities</li>
+                    <li>Modeling supply chain constraints</li>
+                    <li>Diversification strategies</li>
+                    <li>Building resilience into energy plans</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 5_Supply Chain Uncertainties_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '6': {
+            number: '6',
+            meta: 'Day 2 • 11:30-13:00',
+            title: 'Addressing the Future of Digitalization Through Demand-side Planning',
+            cohost: '',
+            concept: `
+                <p>This session examines the rapidly evolving energy demand landscape driven by digitalization.</p>
+                <p>Focus on integrating data centers, AI infrastructure, and smart systems into long-term scenario planning.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>Impact of digitalization on energy demand</li>
+                    <li>Modeling AI and data center energy requirements</li>
+                    <li>Demand-side management opportunities</li>
+                    <li>Integration with supply-side planning</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 6_digitalization through demand-side planning_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '7': {
+            number: '7',
+            meta: 'Day 2 • 14:00-15:15',
+            title: 'Governing AI in Energy Planning',
+            cohost: '',
+            concept: `
+                <p>This session discusses the opportunities and challenges of using artificial intelligence in energy scenario planning.</p>
+                <p>Addresses governance frameworks, data quality requirements, and ensuring transparency in AI-assisted energy planning.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>AI applications in energy planning</li>
+                    <li>Governance and transparency requirements</li>
+                    <li>Data quality and validation</li>
+                    <li>Ethical considerations and limitations</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 7_AI in Energy Planning_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        },
+        '8': {
+            number: '8',
+            meta: 'Day 2 • 15:45-17:00',
+            title: 'Embedding Just Transition in National Scenario Frameworks',
+            cohost: 'Co-host: Brazil - GCEP',
+            concept: `
+                <p>This session focuses on integrating social equity and just transition principles into energy scenario planning.</p>
+                <p>Explores methodologies for assessing employment impacts, community effects, and ensuring inclusive energy transitions.</p>
+                <h4>Key Discussion Points:</h4>
+                <ul>
+                    <li>Just transition frameworks and principles</li>
+                    <li>Modeling employment and social impacts</li>
+                    <li>Stakeholder engagement for inclusive planning</li>
+                    <li>Policy measures to support affected communities</li>
+                </ul>
+            `,
+            runOfShow: `
+                <p><strong>Source file:</strong> Session 8_Just Transition_Agenda.docx</p>
+                <p><em>Please populate this section with the run of show from the session file.</em></p>
+            `
+        }
+    };
+
+    /**
      * Speaker Data - Add bios and details here
      */
     const speakerData = {
@@ -346,6 +521,64 @@
     }
 
     /**
+     * Session Modal
+     */
+    function initSessionModal() {
+        const modal = document.getElementById('sessionModal');
+        const modalOverlay = document.getElementById('sessionModalOverlay');
+        const modalClose = document.getElementById('sessionModalClose');
+        const sessionCards = document.querySelectorAll('.session--clickable');
+
+        if (!modal || !sessionCards.length) return;
+
+        // Open modal
+        sessionCards.forEach(card => {
+            card.addEventListener('click', function() {
+                const sessionId = this.getAttribute('data-session');
+                const session = sessionData[sessionId];
+
+                if (!session) return;
+
+                // Populate modal
+                document.getElementById('sessionModalNumber').textContent = session.number;
+                document.getElementById('sessionModalMeta').textContent = session.meta;
+                document.getElementById('sessionModalTitle').textContent = session.title;
+
+                const cohostElement = document.getElementById('sessionModalCohost');
+                if (session.cohost) {
+                    cohostElement.textContent = session.cohost;
+                    cohostElement.style.display = 'block';
+                } else {
+                    cohostElement.style.display = 'none';
+                }
+
+                document.getElementById('sessionModalConcept').innerHTML = session.concept;
+                document.getElementById('sessionModalRunOfShow').innerHTML = session.runOfShow;
+
+                // Show modal
+                modal.classList.add('is-open');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Close modal
+        function closeModal() {
+            modal.classList.remove('is-open');
+            document.body.style.overflow = '';
+        }
+
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', closeModal);
+
+        // Close on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && modal.classList.contains('is-open')) {
+                closeModal();
+            }
+        });
+    }
+
+    /**
      * Initialize all functions on DOM ready
      */
     function init() {
@@ -356,6 +589,7 @@
         initActiveNavLink();
         initSpeakersCarousel();
         initSpeakerModal();
+        initSessionModal();
     }
 
     // Initialize when DOM is ready
