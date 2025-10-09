@@ -1466,15 +1466,18 @@ a:hover {
         top: 72px;
         left: 0;
         right: 0;
-        background: #00203e;
+        width: 100%;
+        background: #00203e !important;
         flex-direction: column;
         padding: var(--space-6);
         gap: var(--space-4);
         box-shadow: var(--shadow-xl);
+        z-index: 999;
+        min-height: calc(100vh - 72px);
     }
 
     .nav__list.is-active {
-        display: flex;
+        display: flex !important;
     }
 
     .nav__link {
