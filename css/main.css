@@ -764,6 +764,7 @@ a:hover {
     font-size: var(--text-sm);
     color: var(--color-gray-600);
     line-height: 1.4;
+    text-align: center;
 }
 
 .carousel-btn {
