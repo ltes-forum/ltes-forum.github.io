@@ -159,19 +159,37 @@
             title: 'Long-term Energy Scenarios Frameworks and NDC Alignment in Practice',
             cohost: 'Co-host: UNFCCC',
             concept: `
-                <p>This session explores how countries integrate long-term energy scenario planning with their Nationally Determined Contributions (NDCs) and climate commitments.</p>
-                <p>Practitioners will share experiences on aligning energy modeling frameworks with international climate goals, discussing challenges and best practices in creating coherent, actionable pathways for the energy transition.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>As countries prepare their third round of Nationally Determined Contributions (NDCs 3.0) in 2025, effective coordination between energy, climate, and finance ministries has become essential. Long-term energy scenarios (LTES) provide the analytical foundation for climate strategies, but their impact depends on whether results are taken up in national decision-making processes.</p>
+                <p>Alignment ensures consistency in assumptions (GDP growth, population, fuel prices), highlights synergies (energy access and emission reductions), and reveals trade-offs (e.g. fiscal impacts of fossil fuel subsidy reform). Importantly, LTES can quantify investment needs and provide indicative fiscal envelopes, creating entry points for finance ministries to integrate transition costs into annual and medium-term budgets.</p>
+
+                <h4>Objective</h4>
+                <p>To identify practical mechanisms that ensure LTES outputs are systematically aligned with NDCs, LT-LEDS, and budget processes, and to highlight lessons on cross-ministerial coordination that strengthen planning ecosystems and credibility of climate commitments.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>Integration of LTES with NDCs and long-term climate strategies</li>
-                    <li>Methodological approaches for alignment</li>
-                    <li>Case studies from member countries</li>
-                    <li>Tools and frameworks for effective coordination</li>
+                    <li>Examples of mechanisms used by countries to integrate LTES into NDCs and LT-LEDS (e.g. inter-ministerial review, planning committees, budget hooks)</li>
+                    <li>Lessons on how finance ministries can be engaged through scenario-based investment signals and fiscal envelopes</li>
+                    <li>Identification of common institutional barriers to alignment and how international partners can help address them</li>
+                    <li>Recommendations for how LTES can directly inform NDC 3.0 preparation in 2025</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 1_LTES frameworks and NDC alignment in practice_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <p><strong>For countries:</strong></p>
+                <ul>
+                    <li>At what point in your planning calendar do LTES outputs feed into NDC updates or LT-LEDS?</li>
+                    <li>What mechanism links updated scenario results to annual or medium-term budgets?</li>
+                    <li>Which policy or regulatory signal from your plan (e.g. auction calendar, tariff design, interconnection commitment) has given investors the most certainty?</li>
+                    <li>What was the most binding barrier in applying scenarios to policy decisions, and how was it overcome?</li>
+                </ul>
+
+                <p><strong>For organizations:</strong></p>
+                <ul>
+                    <li>What is the most frequent institutional barrier you observe when countries try to align LTES with NDCs/LT-LEDS?</li>
+                    <li>What specific type of support can you offer in 2025–26 to help countries overcome this barrier?</li>
+                    <li>What single prerequisite must a planning team have in place for your support to take hold effectively?</li>
+                </ul>
             `
         },
         '2': {
@@ -180,19 +198,41 @@
             title: 'Turning Grid Planning into Bankable Grid Pipelines',
             cohost: 'Co-host: Brazil - GCEP',
             concept: `
-                <p>This session examines the critical bridge between energy scenario planning and investment mobilization.</p>
-                <p>Focus on translating long-term grid expansion plans into concrete, financeable infrastructure projects that attract private and public investment.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>Transmission and distribution networks are among the most cited bottlenecks to scaling renewables for the clean energy transition. Governments use LTES to map where and when new grid capacity will be needed, but investors need more than long-term projections: they require specific signals that reduce uncertainty i.e. which corridors will advance, what costs are expected, and how risks will be managed.</p>
+                <p>This session will explore how scenario-informed grid planning can generate such signals and how they are operationalized through institutional arrangements and financial instruments. It will examine which risks, from currency exposure and off-taker creditworthiness to permitting and political uncertainty, most constrain capital, and how allocation mechanisms are evolving to address them.</p>
+
+                <h4>Objective</h4>
+                <p>To identify how scenario-based grid planning can be translated into investor-relevant signals and risk allocation frameworks, and to distill practical lessons that inform GCEP recommendations.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>From planning to bankable projects</li>
-                    <li>De-risking strategies for grid infrastructure</li>
-                    <li>Engaging financial institutions</li>
-                    <li>Success stories and lessons learned</li>
+                    <li>Practical lessons on how LTES-based grid planning informed investor signals and project pipelines</li>
+                    <li>Shared understanding of which risks most constrain private investment in grids, and which allocation options are under consideration</li>
+                    <li>Insights into institutional steps (regulatory, financial, governance) that help translate planning outputs into bankable projects</li>
+                    <li>Inputs to GCEP Workstream 1 (Planning to Investment) and, strategically, to the COP30 Action Agenda's goal of bridging ambition with implementation</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 2_Planning to Investment_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <p><strong>For governments:</strong></p>
+                <ul>
+                    <li>Which outputs from your national planning (e.g. scenarios, corridor maps, CAPEX estimates) have been most effective in giving investors visibility?</li>
+                    <li>What single risk has most limited private capital in your grid pipelines, and how are you addressing it?</li>
+                </ul>
+
+                <p><strong>For MDB and regulators:</strong></p>
+                <ul>
+                    <li>When a government approaches you with a grid project, what planning signals or documentation must be in place before you can mobilize capital?</li>
+                    <li>Which risk allocation tools have you used most often in grid projects, and what made them viable?</li>
+                    <li>How does Germany translate its long-term scenarios into corridor decisions and tenders?</li>
+                </ul>
+
+                <p><strong>For private sector:</strong></p>
+                <ul>
+                    <li>Which policy signals from planning frameworks reduce uncertainty in your grid investments?</li>
+                    <li>Which risks most influence your willingness to finance or supply, and how do you see them best allocated?</li>
+                </ul>
             `
         },
         '3': {
@@ -201,19 +241,41 @@
             title: 'Communicating Scenarios to Build Strong Public and Political Support',
             cohost: 'Co-host: Natural Resources Canada',
             concept: `
-                <p>This session addresses the challenge of effectively communicating complex energy scenarios to diverse stakeholders.</p>
-                <p>Explores strategies for transparent communication, stakeholder engagement, and building public trust in energy transition pathways.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>Scenarios are powerful tools for decision-making, but their value depends on how results are communicated and understood. Too often, scenario outputs remain confined to technical audiences, leaving untapped opportunities to build broader public and political support. Governments and institutions are finding that linking scenario insights to everyday concerns—household costs, employment, reliability of supply—makes them more accessible and compelling.</p>
+                <p>This session will focus on how countries and organizations have turned complex modelling results into narratives that resonate. It will highlight strategies for framing costs and benefits, emphasizing social and economic opportunities, and showing how scenarios anticipate and manage risks. It will also present IRENA's participatory planning toolkit, which provides practical methods for engaging diverse stakeholders in scenario processes and co-developing narratives that inspire action.</p>
+
+                <h4>Objective</h4>
+                <p>To identify practical approaches for using LTES outputs and participatory processes to build public trust, political support, and shared ownership of the energy transition.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>Communication strategies for different audiences</li>
-                    <li>Visualization and data presentation techniques</li>
-                    <li>Stakeholder engagement best practices</li>
-                    <li>Building trust and credibility</li>
+                    <li>Lessons on framing scenario results to emphasize affordability, jobs, and reliability</li>
+                    <li>Practical approaches for translating technical outputs into compelling narratives that resonate with non-expert audiences</li>
+                    <li>Examples of partnerships and communication channels that amplified the reach and impact of scenario messages</li>
+                    <li>Insights into participatory methods that strengthen ownership and legitimacy of scenario outcomes</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 3_Communicating scenarios _Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <p><strong>For academic/research:</strong></p>
+                <ul>
+                    <li>What approaches (visuals, narratives, participatory methods) make scenario results understandable and trusted by non-expert audiences?</li>
+                    <li>What evidence have you seen about what does not work in communicating scenarios?</li>
+                </ul>
+
+                <p><strong>For system operators and national planners:</strong></p>
+                <ul>
+                    <li>Which aspects of your scenarios (e.g. reliability, cost implications, grid expansion) have resonated most with policymakers and the public?</li>
+                    <li>How have you framed potentially controversial findings (grid siting, investment costs) to maintain support?</li>
+                    <li>How have participatory processes been used to strengthen buy-in from ministries, communities, or parliament?</li>
+                    <li>What communication practices ensured the message stayed credible across different governments and political cycles?</li>
+                </ul>
+
+                <p><strong>Cross-cutting question for all:</strong></p>
+                <ul>
+                    <li>Looking at your experience, what single adjustment in how scenarios are communicated would most help build stronger political and public support for the transition?</li>
+                </ul>
             `
         },
         '4': {
@@ -222,19 +284,45 @@
             title: 'Institutional Considerations for Adopting Modelling Tools',
             cohost: 'Co-host: GET.transform',
             concept: `
-                <p>This session discusses practical aspects of selecting and implementing energy modeling tools within government institutions.</p>
-                <p>Focus on open-source solutions, capacity building, and creating sustainable in-house modeling capabilities.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>Many governments face the challenge of sustaining modelling capacity: skilled staff move on, funding cycles are short, and tool deployment takes longer than policy timelines allow. While open-source tools can reduce costs and increase transparency, they require governance arrangements to ensure they are maintained and used consistently across ministries.</p>
+                <p>This session will bring together country representatives and experts to share practical experiences of institutionalizing modelling tools in their planning processes. The emphasis will be on governance solutions, such as creating permanent modelling units, building inter-ministerial structures, or developing partnerships that sustain capacity. By exchanging lessons, participants will identify strategies for building sovereign, adaptive planning systems that can inform long-term energy scenarios.</p>
+
+                <h4>Objective</h4>
+                <p>To identify governance and institutional strategies that help countries adopt and sustain modelling tools as part of their national planning ecosystems, ensuring resilience, transparency, and agility in scenario development.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>Tool selection criteria and considerations</li>
-                    <li>Open-source vs. proprietary solutions</li>
-                    <li>Capacity building strategies</li>
-                    <li>Institutional arrangements for sustained modeling capabilities</li>
+                    <li>Practical guidance on institutionalizing modelling capacity beyond individual projects or experts</li>
+                    <li>Strategies to build collaborative ecosystems where modelling results are shared across ministries</li>
+                    <li>Peer-to-peer exchange of approaches to address staff turnover, funding gaps, and deployment delays</li>
+                    <li>Contributions to LTES Network workstreams on strengthening sovereign planning capacity</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 4_Adopting Modelling Tools_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Themes for Discussion</h4>
+                <p><strong>Capacity and resources:</strong></p>
+                <ul>
+                    <li>Retention: How do you keep modelling capacity when staff rotate or leave?</li>
+                    <li>Funding: How do you sustain budgets for modelling teams over time?</li>
+                </ul>
+
+                <p><strong>Operationalization and use:</strong></p>
+                <ul>
+                    <li>Deployment: How do you make open-source tools usable quickly enough for real planning deadlines?</li>
+                    <li>Integration: How are models linked to official planning cycles or regulatory processes in your country?</li>
+                </ul>
+
+                <p><strong>Institutional embedding:</strong></p>
+                <ul>
+                    <li>Collaboration: How do you ensure results are shared across ministries, not siloed in one team?</li>
+                    <li>Continuity: What governance arrangement (unit, law, committee) helps you make modelling permanent rather than project-based?</li>
+                </ul>
+
+                <p><strong>Partnerships and external support:</strong></p>
+                <ul>
+                    <li>What role have international partners or regional initiatives played in strengthening your modelling institutions?</li>
+                </ul>
             `
         },
         '5': {
@@ -243,19 +331,28 @@
             title: 'Addressing Supply Chain Uncertainties',
             cohost: 'Co-host: European Commission JRC',
             concept: `
-                <p>This session explores how to incorporate supply chain risks and uncertainties into long-term energy planning.</p>
-                <p>Addresses critical mineral dependencies, technology supply constraints, and strategies for building resilient energy supply chains.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>Global supply chains for critical energy technologies—batteries, solar modules, electrolyzers, wind turbines, and other components—are increasingly exposed to geopolitical risks, trade disputes, and market concentration. Disruptions or bottlenecks in these supply chains can stall deployment, increase costs, and undermine transition strategies.</p>
+                <p>Scenario-based planning offers governments a way to anticipate such risks. By embedding supply chain assumptions into long-term energy scenarios, planners can stress-test pathways, identify vulnerabilities, and assess credible alternatives. These include diversifying import sources, developing regional manufacturing capacity, or maintaining strategic reserves. Research institutions have begun to design methodologies to capture these uncertainties, while some countries are experimenting with incorporating resilience considerations into national planning.</p>
+
+                <h4>Objective</h4>
+                <p>To examine how LTES frameworks can be used to stress-test supply chain assumptions and translate insights into strategies that strengthen resilience, industrial policy, and regional cooperation.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>Critical materials and supply chain vulnerabilities</li>
-                    <li>Modeling supply chain constraints</li>
-                    <li>Diversification strategies</li>
-                    <li>Building resilience into energy plans</li>
+                    <li>Practical lessons on incorporating supply chain risks into scenario frameworks</li>
+                    <li>Insights from countries on how LTES-informed analysis supports planning under uncertainty</li>
+                    <li>Examples of methodological advances from research institutions to stress-test resilience options</li>
+                    <li>Guidance on how policymakers can use scenario evidence to balance cost, resilience, and domestic capability</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 5_Supply Chain Uncertainties_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <ul>
+                    <li>How are supply chain risks currently being integrated into your national or institutional scenario frameworks?</li>
+                    <li>What resilience options (e.g. diversification, regional manufacturing, strategic reserves) can scenarios help evaluate, and how do these shape policy trade-offs?</li>
+                    <li>How can scenario evidence support industrial strategies and cooperation mechanisms that reduce vulnerabilities while maintaining affordability?</li>
+                </ul>
             `
         },
         '6': {
@@ -264,19 +361,41 @@
             title: 'Addressing the Future of Digitalization Through Demand-side Planning',
             cohost: '',
             concept: `
-                <p>This session examines the rapidly evolving energy demand landscape driven by digitalization.</p>
-                <p>Focus on integrating data centers, AI infrastructure, and smart systems into long-term scenario planning.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>Digitalization is becoming a structural driver of electricity demand. Data centers, AI computing clusters, and digital industrial hubs are expanding rapidly, often with concentrated siting and steep load profiles. If not anticipated, these loads risk creating bottlenecks for grids and delaying renewable integration.</p>
+                <p>LTES processes provide governments with a way to bring digitalization into national energy planning. By capturing demand signals from industrial policy, technology adoption, and market forecasts, scenarios can stress-test system adequacy and identify investment needs well before demand surges materialize. This ensures that grid expansion, flexibility options, and siting decisions are prepared in advance, avoiding delays and cost escalation.</p>
+
+                <h4>Objective</h4>
+                <p>To explore how national LTES can anticipate and integrate digitalization-driven demand growth, enabling early infrastructure planning and aligning digital expansion with system decarbonization.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>Impact of digitalization on energy demand</li>
-                    <li>Modeling AI and data center energy requirements</li>
-                    <li>Demand-side management opportunities</li>
-                    <li>Integration with supply-side planning</li>
+                    <li>Practical examples of how digitalization signals are captured and integrated into scenario frameworks</li>
+                    <li>Insights into how scenarios are being used to provide early investment signals for grids, flexibility, and siting</li>
+                    <li>Lessons on governance and planning measures that help countries manage demand growth without slowing the energy transition</li>
+                    <li>Contributions to the LTES Network dialogue on evolving scenario content to include new structural drivers of demand</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 6_digitalization through demand-side planning_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <p><strong>For countries:</strong></p>
+                <ul>
+                    <li>How is your country capturing early digitalization signals (e.g. industrial siting, data centers) in its scenarios, and what impact has this had on investment planning?</li>
+                    <li>What insights has your country developed on how digital loads affect system adequacy and flexibility requirements, and how can scenarios reflect this?</li>
+                    <li>How is your planning system addressing the governance challenge of integrating high-demand loads like AI hubs without delaying renewable integration?</li>
+                </ul>
+
+                <p><strong>For research institutions:</strong></p>
+                <ul>
+                    <li>From a modelling perspective, how do you translate sector forecasts and adoption pathways into scenario assumptions that planners can trust?</li>
+                    <li>In contexts with limited data, what approaches can countries use to anticipate digitalization-driven demand and prepare infrastructure in time?</li>
+                </ul>
+
+                <p><strong>Cross-cutting questions:</strong></p>
+                <ul>
+                    <li>What digitalization trends are most urgent to include in national LTES now?</li>
+                    <li>What institutional measures (data sharing, inter-ministry coordination, regulation) help ensure that digital demand growth is integrated smoothly into transition planning?</li>
+                </ul>
             `
         },
         '7': {
@@ -285,19 +404,28 @@
             title: 'Governing AI in Energy Planning',
             cohost: '',
             concept: `
-                <p>This session discusses the opportunities and challenges of using artificial intelligence in energy scenario planning.</p>
-                <p>Addresses governance frameworks, data quality requirements, and ensuring transparency in AI-assisted energy planning.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>Artificial Intelligence (AI) is increasingly present and influencing energy modelling and planning workflows. Research institutions and international organizations have tested and piloted applications ranging from grid optimization to AI-enhanced geospatial data, automated scenario analysis, and AI bots for training and capacity building. These pilots show AI potential to accelerate analysis and broaden scenario exploration, but they also expose challenges of trust, validation, data privacy, data quality, and explainability.</p>
+                <p>For governments, the key question is not whether AI has potential, but what institutional conditions must exist to make adoption feasible, responsible, and aligned with national planning mandates. This session will focus on translating the lessons from early pilots into insights for governments: what institutional mandates, procurement rules, data policies, and validation practices would be needed to adopt AI responsibly and sustainably.</p>
+
+                <h4>Objective</h4>
+                <p>To identify governance conditions and institutional prerequisites that governments would need to adopt AI responsibly in energy planning, drawing lessons from pilots by research institutions and international organizations.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>AI applications in energy planning</li>
-                    <li>Governance and transparency requirements</li>
-                    <li>Data quality and validation</li>
-                    <li>Ethical considerations and limitations</li>
+                    <li>Identification of enablers (mandates, procurement, partnerships) and barriers (data quality, trust, validation gaps) to AI adoption in planning</li>
+                    <li>Insights from pilots illustrating opportunities and risks</li>
+                    <li>Practical recommendations for governments on building institutional capacity and governance frameworks for responsible AI adoption</li>
+                    <li>Contributions to LTES dialogues on how emerging digital tools can be integrated into national planning ecosystems</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 7_AI in Energy Planning_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <ul>
+                    <li>From your experience, what governance conditions would a government need in place to actually benefit from the kind of AI application you described?</li>
+                    <li>What risks or limitations have you seen in your work that governments should be especially careful about (e.g. validation (black boxes), explainability, data standards)?</li>
+                    <li>Based on your pilot or tool, what kind of capacity-building or institutional support would make it feasible for governments to adopt similar approaches?</li>
+                </ul>
             `
         },
         '8': {
@@ -306,19 +434,28 @@
             title: 'Embedding Just Transition in National Scenario Frameworks',
             cohost: 'Co-host: Brazil - GCEP',
             concept: `
-                <p>This session focuses on integrating social equity and just transition principles into energy scenario planning.</p>
-                <p>Explores methodologies for assessing employment impacts, community effects, and ensuring inclusive energy transitions.</p>
-                <h4>Key Discussion Points:</h4>
+                <h4>Context</h4>
+                <p>The Global LTES Network has consistently highlighted the role of scenarios as decision-support tools for governments navigating complex transitions. In many countries, just transition has emerged as a political and economic imperative; requiring policy packages that address labor market shifts, regional economic impacts, and social protection. Recent UNFCCC Just Transition Work Programme dialogues, including the fourth dialogue in Addis Ababa, stressed that transition pathways must be nationally defined, equity-based, and fiscally viable, with active participation of workers, communities, and vulnerable groups.</p>
+                <p>This session will focus on how scenario frameworks can serve as anticipatory governance tools to operationalize these priorities. By embedding socioeconomic and equity dimensions in long-term planning, LTES approaches can help governments identify impacts before they materialize, quantify fiscal needs, and design policy measures that maintain support across political cycles.</p>
+
+                <h4>Objective</h4>
+                <p>To explore how long-term energy scenarios can be applied to design just transition strategies that are aligned with national development priorities, anticipate socioeconomic impacts, and support equitable and fiscally sustainable transitions.</p>
+
+                <h4>Expected Outcomes</h4>
                 <ul>
-                    <li>Just transition frameworks and principles</li>
-                    <li>Modeling employment and social impacts</li>
-                    <li>Stakeholder engagement for inclusive planning</li>
-                    <li>Policy measures to support affected communities</li>
+                    <li>Practical approaches for using LTES to embed equity, labor market, and regional economic considerations in national planning</li>
+                    <li>Lessons on how scenario analysis can inform predictable multi-year financing frameworks for just transition measures</li>
+                    <li>Insights on how evidence from scenarios can build and sustain cross-sector coalitions (government, labor, industry, communities) that protect just transition policies from political shifts</li>
+                    <li>Contributions to the GCEP workstreams on "Planning-to-Investment" and "Technical & Implementation Capacity" by showing how just transition priorities can be integrated into scenario-based planning ecosystems</li>
                 </ul>
             `,
             runOfShow: `
-                <p><strong>Source file:</strong> Session 8_Just Transition_Agenda.docx</p>
-                <p><em>Please populate this section with the run of show from the session file.</em></p>
+                <h4>Key Questions for Discussion</h4>
+                <ul>
+                    <li>Which socioeconomic impacts are hardest to capture in scenarios, and what methods can make them visible for policymakers early in the design process?</li>
+                    <li>What institutional practices or participatory approaches make just transition pathways more resilient to political and economic shifts?</li>
+                    <li>How can scenarios be used to demonstrate the fiscal needs of just transition measures and make the case for sustained financing?</li>
+                </ul>
             `
         }
     };
