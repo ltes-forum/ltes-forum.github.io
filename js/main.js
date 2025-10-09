@@ -92,6 +92,51 @@
     }
 
     /**
+     * Countdown Timer
+     */
+    function initCountdown() {
+        const countdownEl = document.getElementById('countdown');
+        if (!countdownEl) return;
+
+        const daysEl = document.getElementById('days');
+        const hoursEl = document.getElementById('hours');
+        const minutesEl = document.getElementById('minutes');
+        const secondsEl = document.getElementById('seconds');
+        const labelEl = countdownEl.querySelector('.countdown__label');
+
+        // Event start date: October 29, 2025, 9:00 AM CET
+        const eventDate = new Date('2025-10-29T09:00:00+02:00');
+
+        function updateCountdown() {
+            const now = new Date();
+            const diff = eventDate - now;
+
+            if (diff <= 0) {
+                // Event has started
+                countdownEl.classList.add('countdown--finished');
+                labelEl.textContent = 'Event is Live Now! 🎉';
+                return;
+            }
+
+            // Calculate time remaining
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            // Update display with leading zeros
+            daysEl.textContent = String(days).padStart(2, '0');
+            hoursEl.textContent = String(hours).padStart(2, '0');
+            minutesEl.textContent = String(minutes).padStart(2, '0');
+            secondsEl.textContent = String(seconds).padStart(2, '0');
+        }
+
+        // Update immediately and then every second
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    }
+
+    /**
      * Intersection Observer for Scroll Animations
      */
     function initScrollAnimations() {
@@ -611,17 +656,170 @@
     }
 
     /**
+     * Generate .ics Calendar File
+     */
+    function generateICS() {
+        // Event venue
+        const venue = "IRENA Innovation and Technology Center\\nThomas-Dehler-Haus\\nWilly-Brandt-Allee 20\\n53113 Bonn\\, Germany";
+        const teamsLink = "https://events.teams.microsoft.com/event/451339e0-ec39-40a8-bbcd-3b5423a29ab7@ccddebb0-d2bb-44d0-984a-8e42a5c062b3";
+
+        // All sessions with their details
+        const sessions = [
+            {
+                title: "Opening Session",
+                start: "2025-10-29T09:00:00",
+                end: "2025-10-29T09:30:00",
+                description: "Welcome and opening remarks for the 6th LTES Forum"
+            },
+            {
+                title: "Session 1: Long-term Energy Scenarios Frameworks and NDC Alignment in Practice",
+                start: "2025-10-29T09:30:00",
+                end: "2025-10-29T11:15:00",
+                description: "Co-host: UNFCCC\\n\\nThis session explores how countries integrate long-term energy scenario planning with their Nationally Determined Contributions (NDCs) and climate commitments."
+            },
+            {
+                title: "Session 2: Turning Grid Planning into Bankable Grid Pipelines",
+                start: "2025-10-29T11:45:00",
+                end: "2025-10-29T13:15:00",
+                description: "Co-host: Brazil - GCEP\\n\\nExamines the critical bridge between energy scenario planning and investment mobilization."
+            },
+            {
+                title: "Session 3: Communicating Scenarios to Build Strong Public and Political Support",
+                start: "2025-10-29T14:15:00",
+                end: "2025-10-29T15:45:00",
+                description: "Co-host: Natural Resources Canada\\n\\nAddresses the challenge of effectively communicating complex energy scenarios to diverse stakeholders."
+            },
+            {
+                title: "Session 4: Institutional Considerations for Adopting Modelling Tools",
+                start: "2025-10-29T16:15:00",
+                end: "2025-10-29T17:45:00",
+                description: "Co-host: GET.transform\\n\\nDiscusses practical aspects of selecting and implementing energy modeling tools within government institutions."
+            },
+            {
+                title: "Welcome Dinner",
+                start: "2025-10-29T18:30:00",
+                end: "2025-10-29T21:00:00",
+                description: "Welcome dinner for all participants"
+            },
+            {
+                title: "Closed-door Session: LTES Network Members and Partners Strategic Meeting",
+                start: "2025-10-30T08:15:00",
+                end: "2025-10-30T09:30:00",
+                description: "Strategic meeting for LTES Network members and partners only"
+            },
+            {
+                title: "Session 5: Addressing Supply Chain Uncertainties",
+                start: "2025-10-30T09:30:00",
+                end: "2025-10-30T11:00:00",
+                description: "Co-host: European Commission JRC\\n\\nExplores how to incorporate supply chain risks and uncertainties into long-term energy planning."
+            },
+            {
+                title: "Session 6: Addressing the Future of Digitalization Through Demand-side Planning",
+                start: "2025-10-30T11:30:00",
+                end: "2025-10-30T13:00:00",
+                description: "Examines the rapidly evolving energy demand landscape driven by digitalization\\, including data centers and AI infrastructure."
+            },
+            {
+                title: "Session 7: Governing AI in Energy Planning",
+                start: "2025-10-30T14:00:00",
+                end: "2025-10-30T15:15:00",
+                description: "Discusses the opportunities and challenges of using artificial intelligence in energy scenario planning."
+            },
+            {
+                title: "Session 8: Embedding Just Transition in National Scenario Frameworks",
+                start: "2025-10-30T15:45:00",
+                end: "2025-10-30T17:00:00",
+                description: "Co-host: Brazil - GCEP\\n\\nFocuses on integrating social equity and just transition principles into energy scenario planning."
+            },
+            {
+                title: "Closing Remarks",
+                start: "2025-10-30T17:00:00",
+                end: "2025-10-30T17:15:00",
+                description: "Closing remarks and wrap-up of the 6th LTES Forum"
+            },
+            {
+                title: "Farewell Reception",
+                start: "2025-10-30T17:15:00",
+                end: "2025-10-30T18:30:00",
+                description: "Farewell reception for all participants"
+            }
+        ];
+
+        // Helper function to format datetime for ICS
+        function formatICSDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+        }
+
+        // Build ICS content
+        let icsContent = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//6th LTES Forum//Event Portal//EN',
+            'CALSCALE:GREGORIAN',
+            'METHOD:PUBLISH',
+            'X-WR-CALNAME:6th LTES Forum - Full Agenda',
+            'X-WR-TIMEZONE:Europe/Berlin'
+        ];
+
+        sessions.forEach((session, index) => {
+            icsContent.push('BEGIN:VEVENT');
+            icsContent.push(`UID:ltes2025-session-${index}@irena.org`);
+            icsContent.push(`DTSTAMP:${formatICSDate(new Date().toISOString())}`);
+            icsContent.push(`DTSTART:${formatICSDate(session.start)}`);
+            icsContent.push(`DTEND:${formatICSDate(session.end)}`);
+            icsContent.push(`SUMMARY:${session.title}`);
+            icsContent.push(`DESCRIPTION:${session.description}\\n\\nVirtual Access: ${teamsLink}`);
+            icsContent.push(`LOCATION:${venue}`);
+            icsContent.push('STATUS:CONFIRMED');
+            icsContent.push('SEQUENCE:0');
+            icsContent.push('END:VEVENT');
+        });
+
+        icsContent.push('END:VCALENDAR');
+
+        return icsContent.join('\r\n');
+    }
+
+    /**
+     * Download ICS File
+     */
+    function downloadICS() {
+        const icsContent = generateICS();
+        const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = '6th-LTES-Forum-Full-Agenda.ics';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(link.href);
+    }
+
+    /**
+     * Initialize Calendar Button
+     */
+    function initCalendarButton() {
+        const calendarBtn = document.getElementById('addFullAgenda');
+        if (!calendarBtn) return;
+
+        calendarBtn.addEventListener('click', downloadICS);
+    }
+
+    /**
      * Initialize all functions on DOM ready
      */
     function init() {
         initMobileNav();
         initSmoothScroll();
         updateLiveBadge();
+        initCountdown();
         initScrollAnimations();
         initActiveNavLink();
         initSpeakersCarousel();
         initSpeakerModal();
         initSessionModal();
+        initCalendarButton();
     }
 
     // Initialize when DOM is ready

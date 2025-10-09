@@ -69,6 +69,33 @@
                rel="noopener noreferrer">
                 Register Now
             </a>
+
+            <!-- Countdown Timer -->
+            <div class="countdown" id="countdown">
+                <div class="countdown__label">Event starts in</div>
+                <div class="countdown__timer">
+                    <div class="countdown__segment">
+                        <span class="countdown__value" id="days">00</span>
+                        <span class="countdown__unit">Days</span>
+                    </div>
+                    <div class="countdown__separator">:</div>
+                    <div class="countdown__segment">
+                        <span class="countdown__value" id="hours">00</span>
+                        <span class="countdown__unit">Hours</span>
+                    </div>
+                    <div class="countdown__separator">:</div>
+                    <div class="countdown__segment">
+                        <span class="countdown__value" id="minutes">00</span>
+                        <span class="countdown__unit">Minutes</span>
+                    </div>
+                    <div class="countdown__separator">:</div>
+                    <div class="countdown__segment">
+                        <span class="countdown__value" id="seconds">00</span>
+                        <span class="countdown__unit">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
             <div class="hero__logos">
                 <img src="images/ltes-initiative.png" alt="Long-term Scenarios for the Energy Transition Initiative" class="hero__logo-img">
                 <img src="images/ltes-network.jpg" alt="LTES Network" class="hero__logo-img">
@@ -107,27 +134,18 @@
     <section class="section section--gray" id="live">
         <div class="container">
             <div class="section__header">
-                <span class="section__eyebrow">Virtual Participation</span>
-                <h2 class="section__title">Join Online</h2>
-                <p class="section__description">Participate virtually in the 6th LTES Forum via Microsoft Teams</p>
+                <span class="section__eyebrow">Join Online</span>
+                <h2 class="section__title">Virtual Participation</h2>
+                <p class="section__description">Registered participants can join the forum sessions via Microsoft Teams during the event dates (October 29-30, 2025).</p>
             </div>
 
-            <div class="online-join-card">
-                <div class="online-join-card__icon">🌐</div>
-                <h3 class="online-join-card__title">Virtual Event Access</h3>
-                <p class="online-join-card__description">
-                    Registered participants can join the forum sessions online through Microsoft Teams.
-                    Click the button below to access the virtual event platform.
-                </p>
+            <div style="text-align: center; margin-top: 2rem;">
                 <a href="https://events.teams.microsoft.com/event/451339e0-ec39-40a8-bbcd-3b5423a29ab7@ccddebb0-d2bb-44d0-984a-8e42a5c062b3"
                    class="btn btn--primary btn--large"
                    target="_blank"
                    rel="noopener noreferrer">
-                    Join Event on Microsoft Teams
+                    Join on Microsoft Teams
                 </a>
-                <p class="online-join-card__note">
-                    <strong>Note:</strong> Virtual access is available for registered participants during the event dates (October 29-30, 2025)
-                </p>
             </div>
         </div>
     </section>
@@ -967,6 +985,13 @@
                 <h2 class="section__title">Forum Agenda</h2>
             </div>
 
+            <div class="agenda-actions">
+                <button class="btn-calendar btn-calendar--large" id="addFullAgenda" aria-label="Add full agenda to calendar">
+                    <span class="btn-calendar__icon">📅</span>
+                    <span class="btn-calendar__text">Add Full Agenda to Calendar</span>
+                </button>
+            </div>
+
             <div class="content-wrapper">
                 <div class="agenda__day">
                     <h3 class="agenda__day-title">Day 1: October 29, 2025 — Building Institutional Frameworks</h3>
@@ -1010,14 +1035,20 @@
                     <div class="document__icon" aria-hidden="true">📄</div>
                     <h3 class="document__title">Programme Overview</h3>
                     <p class="document__description">Detailed agenda, session descriptions, speakers, and expected outcomes for all forum sessions.</p>
-                    <a href="https://irena.sharepoint.com/:b:/s/EnergyPlanningCapacityBuilding-ExternalSharing/EWArDzztSf5Cqs-HhCmwprcB-USG317t7wEYeWDoAJUSjQ?e=NsXnBj" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View PDF</a>
+                    <a href="https://irena.sharepoint.com/:b:/s/EnergyPlanningCapacityBuilding-ExternalSharing/EWArDzztSf5Cqs-HhCmwprcB-USG317t7wEYeWDoAJUSjQ?e=NsXnBj&download=1" class="btn btn--primary" rel="noopener noreferrer">
+                        <span class="btn__icon">⬇️</span>
+                        Download PDF
+                    </a>
                 </article>
 
                 <article class="document">
                     <div class="document__icon" aria-hidden="true">📋</div>
                     <h3 class="document__title">Logistical Note</h3>
                     <p class="document__description">Important information about venue, transportation, accommodation, and practical arrangements.</p>
-                    <a href="https://irena.sharepoint.com/:b:/s/EnergyPlanningCapacityBuilding-ExternalSharing/EfxirVCjJANChwdPHstUX6cBewu771kSQEm4p8E54I8J4w?e=rnaazD" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View PDF</a>
+                    <a href="https://irena.sharepoint.com/:b:/s/EnergyPlanningCapacityBuilding-ExternalSharing/EfxirVCjJANChwdPHstUX6cBewu771kSQEm4p8E54I8J4w?e=rnaazD&download=1" class="btn btn--primary" rel="noopener noreferrer">
+                        <span class="btn__icon">⬇️</span>
+                        Download PDF
+                    </a>
                 </article>
             </div>
 
@@ -1117,15 +1148,7 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__content">
-                <h3 class="footer__title">6th LTES Forum Event Portal</h3>
                 <p>This is a temporary event portal for the 6th Forum on Long-term Energy Scenarios (October 29-30, 2025).</p>
-                <p>Portal active for registered participants and stakeholders during the event period.</p>
-                <div class="footer__links">
-                    <p>For general information about IRENA, visit <a href="https://www.irena.org" target="_blank" rel="noopener noreferrer">www.irena.org</a></p>
-                </div>
-            </div>
-            <div class="footer__copyright">
-                &copy; 2025 International Renewable Energy Agency (IRENA). All rights reserved.
             </div>
         </div>
     </footer>
