@@ -1173,57 +1173,49 @@ a:hover {
 /* ============================================
    Video Container
    ============================================ */
-.video {
+.online-join-card {
     background: var(--color-white);
-    border-radius: var(--radius-lg);
-    padding: var(--space-6);
-    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-xl);
+    padding: var(--space-12);
+    text-align: center;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.05),
+        0 10px 20px rgba(0, 32, 62, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.video__badge {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-2);
-    background: #dc2626;
-    color: var(--color-white);
-    padding: var(--space-2) var(--space-4);
-    border-radius: var(--radius-sm);
-    font-size: var(--text-xs);
+.online-join-card__icon {
+    font-size: 4rem;
+    margin-bottom: var(--space-4);
+}
+
+.online-join-card__title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary);
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    margin-bottom: var(--space-4);
+}
+
+.online-join-card__description {
+    font-size: var(--text-base);
+    color: var(--color-gray-700);
+    line-height: 1.7;
     margin-bottom: var(--space-6);
 }
 
-.video__badge-dot {
-    width: 8px;
-    height: 8px;
-    background: var(--color-white);
-    border-radius: 50%;
-    animation: pulse 2s infinite;
+.online-join-card__note {
+    font-size: var(--text-sm);
+    color: var(--color-gray-600);
+    margin-top: var(--space-6);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--color-gray-200);
 }
 
-@keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.4; }
-}
-
-.video__wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    border-radius: var(--radius-md);
-    background: var(--color-gray-100);
-}
-
-.video__wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+.btn--large {
+    padding: 1rem 2.5rem;
+    font-size: var(--text-lg);
+    font-weight: 600;
 }
 
 /* ============================================
