@@ -1427,6 +1427,7 @@ a:hover {
         position: absolute;
         right: 1rem;
         z-index: 10;
+        color: var(--color-primary);
     }
 
     .header__logo-section {
@@ -1476,8 +1477,24 @@ a:hover {
         display: flex;
     }
 
+    .nav__link {
+        color: rgba(255, 255, 255, 0.95);
+        padding: 0.75rem 1rem;
+        border-radius: var(--radius-sm);
+    }
+
+    .nav__link:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--color-white);
+    }
+
     .nav__link::after {
         display: none;
+    }
+
+    .nav__cta {
+        margin-left: 0;
+        text-align: center;
     }
 
     .hero {
