@@ -175,21 +175,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <p><strong>For countries:</strong></p>
-                <ul>
-                    <li>At what point in your planning calendar do LTES outputs feed into NDC updates or LT-LEDS?</li>
-                    <li>What mechanism links updated scenario results to annual or medium-term budgets?</li>
-                    <li>Which policy or regulatory signal from your plan (e.g. auction calendar, tariff design, interconnection commitment) has given investors the most certainty?</li>
-                    <li>What was the most binding barrier in applying scenarios to policy decisions, and how was it overcome?</li>
-                </ul>
-
-                <p><strong>For organizations:</strong></p>
-                <ul>
-                    <li>What is the most frequent institutional barrier you observe when countries try to align LTES with NDCs/LT-LEDS?</li>
-                    <li>What specific type of support can you offer in 2025–26 to help countries overcome this barrier?</li>
-                    <li>What single prerequisite must a planning team have in place for your support to take hold effectively?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '2': {
@@ -214,25 +200,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <p><strong>For governments:</strong></p>
-                <ul>
-                    <li>Which outputs from your national planning (e.g. scenarios, corridor maps, CAPEX estimates) have been most effective in giving investors visibility?</li>
-                    <li>What single risk has most limited private capital in your grid pipelines, and how are you addressing it?</li>
-                </ul>
-
-                <p><strong>For MDB and regulators:</strong></p>
-                <ul>
-                    <li>When a government approaches you with a grid project, what planning signals or documentation must be in place before you can mobilize capital?</li>
-                    <li>Which risk allocation tools have you used most often in grid projects, and what made them viable?</li>
-                    <li>How does Germany translate its long-term scenarios into corridor decisions and tenders?</li>
-                </ul>
-
-                <p><strong>For private sector:</strong></p>
-                <ul>
-                    <li>Which policy signals from planning frameworks reduce uncertainty in your grid investments?</li>
-                    <li>Which risks most influence your willingness to finance or supply, and how do you see them best allocated?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '3': {
@@ -257,25 +225,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <p><strong>For academic/research:</strong></p>
-                <ul>
-                    <li>What approaches (visuals, narratives, participatory methods) make scenario results understandable and trusted by non-expert audiences?</li>
-                    <li>What evidence have you seen about what does not work in communicating scenarios?</li>
-                </ul>
-
-                <p><strong>For system operators and national planners:</strong></p>
-                <ul>
-                    <li>Which aspects of your scenarios (e.g. reliability, cost implications, grid expansion) have resonated most with policymakers and the public?</li>
-                    <li>How have you framed potentially controversial findings (grid siting, investment costs) to maintain support?</li>
-                    <li>How have participatory processes been used to strengthen buy-in from ministries, communities, or parliament?</li>
-                    <li>What communication practices ensured the message stayed credible across different governments and political cycles?</li>
-                </ul>
-
-                <p><strong>Cross-cutting question for all:</strong></p>
-                <ul>
-                    <li>Looking at your experience, what single adjustment in how scenarios are communicated would most help build stronger political and public support for the transition?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '4': {
@@ -300,29 +250,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Themes for Discussion</h4>
-                <p><strong>Capacity and resources:</strong></p>
-                <ul>
-                    <li>Retention: How do you keep modelling capacity when staff rotate or leave?</li>
-                    <li>Funding: How do you sustain budgets for modelling teams over time?</li>
-                </ul>
-
-                <p><strong>Operationalization and use:</strong></p>
-                <ul>
-                    <li>Deployment: How do you make open-source tools usable quickly enough for real planning deadlines?</li>
-                    <li>Integration: How are models linked to official planning cycles or regulatory processes in your country?</li>
-                </ul>
-
-                <p><strong>Institutional embedding:</strong></p>
-                <ul>
-                    <li>Collaboration: How do you ensure results are shared across ministries, not siloed in one team?</li>
-                    <li>Continuity: What governance arrangement (unit, law, committee) helps you make modelling permanent rather than project-based?</li>
-                </ul>
-
-                <p><strong>Partnerships and external support:</strong></p>
-                <ul>
-                    <li>What role have international partners or regional initiatives played in strengthening your modelling institutions?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '5': {
@@ -347,12 +275,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <ul>
-                    <li>How are supply chain risks currently being integrated into your national or institutional scenario frameworks?</li>
-                    <li>What resilience options (e.g. diversification, regional manufacturing, strategic reserves) can scenarios help evaluate, and how do these shape policy trade-offs?</li>
-                    <li>How can scenario evidence support industrial strategies and cooperation mechanisms that reduce vulnerabilities while maintaining affordability?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '6': {
@@ -377,25 +300,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <p><strong>For countries:</strong></p>
-                <ul>
-                    <li>How is your country capturing early digitalization signals (e.g. industrial siting, data centers) in its scenarios, and what impact has this had on investment planning?</li>
-                    <li>What insights has your country developed on how digital loads affect system adequacy and flexibility requirements, and how can scenarios reflect this?</li>
-                    <li>How is your planning system addressing the governance challenge of integrating high-demand loads like AI hubs without delaying renewable integration?</li>
-                </ul>
-
-                <p><strong>For research institutions:</strong></p>
-                <ul>
-                    <li>From a modelling perspective, how do you translate sector forecasts and adoption pathways into scenario assumptions that planners can trust?</li>
-                    <li>In contexts with limited data, what approaches can countries use to anticipate digitalization-driven demand and prepare infrastructure in time?</li>
-                </ul>
-
-                <p><strong>Cross-cutting questions:</strong></p>
-                <ul>
-                    <li>What digitalization trends are most urgent to include in national LTES now?</li>
-                    <li>What institutional measures (data sharing, inter-ministry coordination, regulation) help ensure that digital demand growth is integrated smoothly into transition planning?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '7': {
@@ -420,12 +325,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <ul>
-                    <li>From your experience, what governance conditions would a government need in place to actually benefit from the kind of AI application you described?</li>
-                    <li>What risks or limitations have you seen in your work that governments should be especially careful about (e.g. validation (black boxes), explainability, data standards)?</li>
-                    <li>Based on your pilot or tool, what kind of capacity-building or institutional support would make it feasible for governments to adopt similar approaches?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '8': {
@@ -450,12 +350,7 @@
                 </ul>
             `,
             runOfShow: `
-                <h4>Key Questions for Discussion</h4>
-                <ul>
-                    <li>Which socioeconomic impacts are hardest to capture in scenarios, and what methods can make them visible for policymakers early in the design process?</li>
-                    <li>What institutional practices or participatory approaches make just transition pathways more resilient to political and economic shifts?</li>
-                    <li>How can scenarios be used to demonstrate the fiscal needs of just transition measures and make the case for sustained financing?</li>
-                </ul>
+                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         }
     };
