@@ -265,7 +265,7 @@ a:hover {
     gap: 2rem;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 3rem;
     height: 100%;
 }
 
@@ -607,6 +607,11 @@ a:hover {
 
 .section--gray {
     background: var(--color-gray-50);
+}
+
+#agenda::before,
+#logistics::before {
+    display: none;
 }
 
 .section__header {
@@ -1822,12 +1827,82 @@ a:hover {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    /* Header adjustments for tablet */
+    .header__logo-section {
+        width: 25%;
+        min-width: 200px;
+    }
+
+    .nav {
+        padding-right: 1rem;
+    }
+
+    .nav__list {
+        gap: 1rem;
+        padding-left: 2rem;
+    }
+
+    .nav__link {
+        font-size: 0.85rem;
+    }
+
+    /* Container uses more width on tablet */
+    .container {
+        max-width: 95%;
+    }
+
+    /* Grid adjustments */
     .documents {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .publications-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .themes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contacts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Speakers carousel */
+    .speaker-card {
+        flex: 0 0 200px;
+    }
+
+    /* Hero adjustments */
+    .hero__meta {
+        gap: 2rem;
+        font-size: 1rem;
+    }
+
+    /* Sessions */
+    .session__title {
+        font-size: var(--text-lg);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    /* Laptop and large tablet landscape */
+    .header__logo-section {
+        width: 28%;
+    }
+
+    .nav__list {
+        gap: 1.5rem;
+        padding-left: 2.5rem;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 3rem;
+    }
+
+    .publications-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
