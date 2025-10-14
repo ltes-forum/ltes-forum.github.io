@@ -916,6 +916,12 @@
         // All sessions with their details
         const sessions = [
             {
+                title: "Badge Collection and Coffee",
+                start: "2025-10-29T08:00:00",
+                end: "2025-10-29T09:00:00",
+                description: "Registration and welcome coffee"
+            },
+            {
                 title: "Opening Session",
                 start: "2025-10-29T09:00:00",
                 end: "2025-10-29T09:30:00",
@@ -928,16 +934,34 @@
                 description: "Co-host: UNFCCC\\n\\nThis session explores how countries integrate long-term energy scenario planning with their Nationally Determined Contributions (NDCs) and climate commitments."
             },
             {
+                title: "Coffee Break",
+                start: "2025-10-29T11:15:00",
+                end: "2025-10-29T11:45:00",
+                description: "Morning coffee break"
+            },
+            {
                 title: "Session 2: Turning Grid Planning into Bankable Grid Pipelines",
                 start: "2025-10-29T11:45:00",
                 end: "2025-10-29T13:15:00",
                 description: "Co-host: Brazil - GCEP\\n\\nExamines the critical bridge between energy scenario planning and investment mobilization."
             },
             {
+                title: "Lunch Break",
+                start: "2025-10-29T13:15:00",
+                end: "2025-10-29T14:15:00",
+                description: "Lunch"
+            },
+            {
                 title: "Session 3: Communicating Scenarios to Build Strong Public and Political Support",
                 start: "2025-10-29T14:15:00",
                 end: "2025-10-29T15:45:00",
                 description: "Co-host: Natural Resources Canada\\n\\nAddresses the challenge of effectively communicating complex energy scenarios to diverse stakeholders."
+            },
+            {
+                title: "Coffee Break",
+                start: "2025-10-29T15:45:00",
+                end: "2025-10-29T16:15:00",
+                description: "Afternoon coffee break"
             },
             {
                 title: "Session 4: Institutional Considerations for Adopting Modelling Tools",
@@ -952,10 +976,16 @@
                 description: "Welcome dinner for all participants"
             },
             {
+                title: "Coffee and Networking",
+                start: "2025-10-30T08:00:00",
+                end: "2025-10-30T09:15:00",
+                description: "Morning coffee and networking"
+            },
+            {
                 title: "Closed-door Session: LTES Network Members and Partners Strategic Meeting",
                 start: "2025-10-30T08:00:00",
                 end: "2025-10-30T09:00:00",
-                description: "Strategic meeting for LTES Network members and partners only"
+                description: "Strategic meeting for LTES Network members and partners only (concurrent with coffee and networking)"
             },
             {
                 title: "Opening Presentation: Global and Regional Energy Outlooks",
@@ -970,16 +1000,34 @@
                 description: "Co-host: European Commission JRC\\n\\nExplores how to incorporate supply chain risks and uncertainties into long-term energy planning."
             },
             {
+                title: "Coffee Break",
+                start: "2025-10-30T11:15:00",
+                end: "2025-10-30T11:45:00",
+                description: "Morning coffee break"
+            },
+            {
                 title: "Session 6: Addressing the Future of Digitalization Through Demand-side Planning",
                 start: "2025-10-30T11:45:00",
                 end: "2025-10-30T13:15:00",
                 description: "Examines the rapidly evolving energy demand landscape driven by digitalization\\, including data centers and AI infrastructure."
             },
             {
+                title: "Lunch Break",
+                start: "2025-10-30T13:15:00",
+                end: "2025-10-30T14:15:00",
+                description: "Lunch"
+            },
+            {
                 title: "Session 7: Governing AI in Energy Planning",
                 start: "2025-10-30T14:15:00",
                 end: "2025-10-30T15:30:00",
                 description: "Discusses the opportunities and challenges of using artificial intelligence in energy scenario planning."
+            },
+            {
+                title: "Coffee Break",
+                start: "2025-10-30T15:30:00",
+                end: "2025-10-30T16:00:00",
+                description: "Afternoon coffee break"
             },
             {
                 title: "Session 8: Embedding Just Transition in National Scenario Frameworks",
