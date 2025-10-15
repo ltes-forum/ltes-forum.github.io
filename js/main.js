@@ -417,9 +417,9 @@
     const speakerData = {
         'adrian-gonzalez': {
             name: 'Adrian Gonzalez',
-            title: 'Senior Programme Officer',
+            title: 'Programme Officer',
             institution: 'IRENA',
-            bio: "Senior Programme Officer at IRENA, specializing in energy demand-side planning and digitalization."
+            bio: "[Bio will be updated soon]"
         },
         'ali-ahmed-ali': {
             name: 'Ali Ahmed Ali',
@@ -443,7 +443,7 @@
             name: 'Arnaldo dos Santos Junior',
             title: 'Energy Planning Expert',
             institution: 'EPE Brazil',
-            bio: "Energy planning expert at Empresa de Pesquisa Energética (EPE), Brazil."
+            bio: "[Bio will be updated soon]"
         },
         'arturo-alarcon': {
             name: 'Arturo Alarcon',
@@ -455,7 +455,7 @@
             name: 'Aurora Recio González',
             title: 'Head of Energy Foresight and Statistics Unit',
             institution: 'Ministry for the Ecological Transition and the Demographic Challenge, Spain',
-            bio: "Head of the Energy Foresight and Statistics Unit at Spain's Ministry for the Ecological Transition and the Demographic Challenge."
+            bio: "[Bio will be updated soon]"
         },
         'carla-cannone': {
             name: 'Carla Cannone',
@@ -467,13 +467,19 @@
             name: 'Carlos Ruiz Sanchez',
             title: 'Programme Officer',
             institution: 'UNFCCC',
-            bio: "Programme Officer at UNFCCC, supporting countries in climate action and NDC implementation."
+            bio: "[Bio will be updated soon]"
         },
         'charlie-heaps': {
             name: 'Charlie Heaps',
             title: 'Senior Scientist',
             institution: 'Stockholm Environment Institute',
             bio: "Charlie Heaps is a Senior Scientist at SEI US and developer of LEAP, the Low Emissions Analysis Platform. From 2006 through 2014, he was also US Center Director, followed by serving as Energy Modeling Program Director 2015 to 2024. Charlie has a degree in energy studies from Swansea University in Wales and a PhD in environmental technology from the Imperial College London."
+        },
+        'christopher-gross': {
+            name: 'Christopher Gross',
+            title: 'Global Team Lead',
+            institution: 'GET.transform',
+            bio: "[Bio will be updated soon]"
         },
         'cornelia-schenke': {
             name: 'Cornelia Schenk',
@@ -527,13 +533,13 @@
             name: 'Gayathri Nair',
             title: 'Programme Officer, Technology and Infrastructure for Grid Integration',
             institution: 'International Renewable Energy Agency (IRENA) IITC',
-            bio: "Programme Officer at IRENA IITC, specializing in technology and infrastructure for grid integration."
+            bio: "[Bio will be updated soon]"
         },
         'hanne-jersild': {
             name: 'Hanne Jersild',
             title: 'Deputy Director',
             institution: 'Ministry of Climate, Energy, Denmark',
-            bio: "Deputy Director at Denmark's Ministry of Climate, Energy and Utilities."
+            bio: "[Bio will be updated soon]"
         },
         'james-glynn': {
             name: 'James Glynn',
@@ -545,13 +551,13 @@
             name: 'Jean-François Gagne',
             title: 'Senior Advisor',
             institution: 'Clean Energy Ministerial',
-            bio: "Senior advisor at the Clean Energy Ministerial."
+            bio: "[Bio will be updated soon]"
         },
         'johanna-castellanos': {
             name: 'Johanna Castellanos',
             title: 'Deputy Director',
             institution: 'Mining and Energy Planning Unit(UPME), Colombia',
-            bio: "Deputy Director at Colombia's Mining and Energy Planning Unit (UPME)."
+            bio: "[Bio will be updated soon]"
         },
         'juan-garcia': {
             name: 'Juan José García Méndez',
@@ -563,7 +569,7 @@
             name: 'Lars Georg Jensen',
             title: 'Chief Advisor',
             institution: 'Danish Energy Agency',
-            bio: "Chief Advisor at the Danish Energy Agency."
+            bio: "[Bio will be updated soon]"
         },
         'lucas-oliveira': {
             name: 'Lucas Simões de Oliveira',
@@ -575,7 +581,7 @@
             name: 'Maike Groninger',
             title: 'Technical Advisor',
             institution: 'GET.transform',
-            bio: "Technical Advisor at GET.transform, supporting adoption of modeling tools."
+            bio: "[Bio will be updated soon]"
         },
         'marcela-jaramillo': {
             name: 'Marcela Jaramillo',
@@ -587,7 +593,7 @@
             name: 'Marija Miletic',
             title: 'Energy Analyst',
             institution: 'European Commission JRC',
-            bio: "Energy analyst at the European Commission Joint Research Centre."
+            bio: "[Bio will be updated soon]"
         },
         'mark-howells': {
             name: 'Mark Howells',
@@ -605,13 +611,13 @@
             name: 'Maximilian Parzen',
             title: 'CEO',
             institution: 'Open Energy Transition',
-            bio: "CEO of Open Energy Transition, developing open-source modeling tools."
+            bio: "[Bio will be updated soon]"
         },
         'mohamed-ben-ticha': {
             name: 'Mohamed Bassam Ben Ticha',
             title: 'Energy Systems Analyst',
             institution: 'International Atomic Energy Agency (IAEA)',
-            bio: "Energy Systems Analyst at IAEA, specializing in AI applications in energy planning."
+            bio: "[Bio will be updated soon]"
         },
         'mohammad-tahavori': {
             name: 'Mohammad Amin Tahavori',
@@ -623,19 +629,19 @@
             name: 'Nadeem Goussous',
             title: 'Associate Programme Officer, Clean Energy Transition Scenarios',
             institution: 'International Renewable Energy Agency (IRENA) IITC',
-            bio: "Nadeem Goussous is an Associate Programme Officer at the International Renewable Energy Agency (IRENA) Innovation and Technology Centre in Bonn, Germany, where he has worked for the past five years. In this role, he focuses on governance and participatory processes in energy planning and the development of long-term energy scenarios, and the operation of the Global Network on Long-term Energy Scenarios. Nadeem previously worked as a R&D engineer in the renewables resource assessment sector in Spain. He holds a Master's degree in Global Energy Transition and Governance from the European Institute (CIFE) in France and a Bachelor's degree in Electrical and Electronic Engineering from Cardiff University."
+            bio: "Nadeem Goussous is an Associate Programme Officer at the International Renewable Energy Agency (IRENA), where he works in the team leading the Global Network on Long-term Energy Scenarios (LTES), engaging with countries and experts worldwide from diverse sectors to advance energy planning practices. He currently leads the workstream on participatory processes for energy scenario development, bringing together policymakers, researchers, industry representatives, and civil society stakeholders to enhance participatory energy planning. He has also led and contributed to several publications on energy and climate planning. His work focuses on developing best practices for robust and inclusive national energy transition pathways. Previously, Nadeem worked as an R&D Engineer in renewable energy resource assessment. He holds a Master's degree in Global Energy Transition and Governance and a Bachelor's degree in Electrical and Electronic Engineering."
         },
         'nicola-magnani': {
             name: 'Nicola Magnani',
             title: 'Joint Research Centre (JRC)',
             institution: 'European Commission',
-            bio: "Researcher at the European Commission Joint Research Centre."
+            bio: "[Bio will be updated soon]"
         },
         'ricardo-aguiar': {
             name: 'Ricardo Aguiar',
             title: 'Senior Researcher, Division of Studies and Energy Sustainability',
             institution: 'Directorate-General for Energy and Geology (DGEG), Portugal',
-            bio: "Senior Researcher at Portugal's Directorate-General for Energy and Geology."
+            bio: "[Bio will be updated soon]"
         },
         'sebastian-sterl': {
             name: 'Sebastian Sterl',
@@ -647,13 +653,13 @@
             name: 'Sebastian Debia',
             title: 'Policy Analyst',
             institution: 'Natural Resources Canada',
-            bio: "Policy Analyst at Natural Resources Canada, working on long-term energy scenarios and climate modeling frameworks."
+            bio: "[Bio will be updated soon]"
         },
         'seoungho-lee': {
             name: 'Seoungho Lee',
             title: 'Associate Research Fellow',
             institution: 'Korea Energy Economics Institute (KEEI)',
-            bio: "Associate Research Fellow at the Korea Energy Economics Institute."
+            bio: "[Bio will be updated soon]"
         },
         'simon-benmarraze': {
             name: 'Simon Benmarraze',
@@ -677,7 +683,7 @@
             name: 'Usman Ahmad',
             title: 'Data Management Specialist',
             institution: 'Energy Planning & Resource Center, Energy Wing, Ministry of Planning, Development & Special Initiatives, Pakistan',
-            bio: "Data Management Specialist at Pakistan's Ministry of Planning, Development & Special Initiatives."
+            bio: "[Bio will be updated soon]"
         }
     };
 
