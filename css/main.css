@@ -1772,7 +1772,7 @@ a:hover {
     .documents,
     .contacts,
     .themes {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     /* Carousel mobile adjustments */
