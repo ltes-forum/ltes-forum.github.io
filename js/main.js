@@ -718,6 +718,13 @@
         let maxIndex = 0;
         let cardWidth = 0;
 
+        // Touch/drag state
+        let isDragging = false;
+        let startX = 0;
+        let currentTranslate = 0;
+        let prevTranslate = 0;
+        let animationID;
+
         function calculateDimensions() {
             const viewportWidth = viewport.offsetWidth;
             // Card is 220px + 24px gap (1.5rem)
@@ -739,8 +746,13 @@
             }
         }
 
-        function updateCarousel() {
+        function updateCarousel(smooth = true) {
             const offset = -currentIndex * cardWidth;
+            if (smooth) {
+                track.style.transition = 'transform 0.3s ease-out';
+            } else {
+                track.style.transition = 'none';
+            }
             track.style.transform = `translateX(${offset}px)`;
 
             // Update dots
@@ -762,6 +774,87 @@
             updateCarousel();
         }
 
+        // Touch/drag event handlers
+        function touchStart(e) {
+            isDragging = true;
+            startX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+            prevTranslate = -currentIndex * cardWidth;
+            track.style.transition = 'none';
+
+            // Prevent default only for touch events to allow click events
+            if (e.type.includes('touch')) {
+                animationID = requestAnimationFrame(animation);
+            }
+        }
+
+        function touchMove(e) {
+            if (!isDragging) return;
+
+            const currentX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+            const diff = currentX - startX;
+            currentTranslate = prevTranslate + diff;
+
+            // Add resistance at boundaries
+            const minTranslate = -maxIndex * cardWidth;
+            const maxTranslate = 0;
+
+            if (currentTranslate > maxTranslate) {
+                currentTranslate = maxTranslate + (currentTranslate - maxTranslate) * 0.3;
+            } else if (currentTranslate < minTranslate) {
+                currentTranslate = minTranslate + (currentTranslate - minTranslate) * 0.3;
+            }
+
+            track.style.transform = `translateX(${currentTranslate}px)`;
+        }
+
+        function touchEnd(e) {
+            if (!isDragging) return;
+            isDragging = false;
+            cancelAnimationFrame(animationID);
+
+            const movedBy = currentTranslate - prevTranslate;
+
+            // If moved enough negative, go to next slide
+            if (movedBy < -50 && currentIndex < maxIndex) {
+                currentIndex += 1;
+            }
+            // If moved enough positive, go to previous slide
+            else if (movedBy > 50 && currentIndex > 0) {
+                currentIndex -= 1;
+            }
+
+            updateCarousel();
+        }
+
+        function animation() {
+            if (isDragging) {
+                requestAnimationFrame(animation);
+            }
+        }
+
+        // Add event listeners for touch/drag
+        viewport.addEventListener('touchstart', touchStart);
+        viewport.addEventListener('touchmove', touchMove);
+        viewport.addEventListener('touchend', touchEnd);
+        viewport.addEventListener('mousedown', touchStart);
+        viewport.addEventListener('mousemove', touchMove);
+        viewport.addEventListener('mouseup', touchEnd);
+        viewport.addEventListener('mouseleave', () => {
+            if (isDragging) {
+                isDragging = false;
+                cancelAnimationFrame(animationID);
+                updateCarousel();
+            }
+        });
+
+        // Prevent context menu on long press
+        viewport.addEventListener('contextmenu', (e) => {
+            if (isDragging) {
+                e.preventDefault();
+            }
+        });
+
+        // Button navigation
         prevBtn.addEventListener('click', () => {
             goToSlide(currentIndex - visibleCards);
         });
