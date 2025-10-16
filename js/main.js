@@ -417,9 +417,9 @@
     const speakerData = {
         'adrian-gonzalez': {
             name: 'Adrian Gonzalez',
-            title: 'Programme Officer',
-            institution: 'IRENA',
-            bio: "[Bio will be updated soon]"
+            title: 'Programme Officer Innovation and End-use sectors',
+            institution: 'International Renewable Energy Agency IITC',
+            bio: "Adrian Gonzalez works within the International Renewable Energy Agency, IRENA, as leading Programme Officer on Innovation and End-use sectors, where he promotes global accelerated deployment of renewable energy through systemic innovation. Adrian is a passionate energy transition professional, with background in electrical and industrial engineering, and holder of an Executive MBA on the energy sector. He became a power system expert by working +10 years as power system manager in the Spanish TSO, REE, and later as senior specialist for the European Network of the Transmission System Operators for Electricity (ENTSO-E). He also founded and led during 6 years the innovation and renewable energy consultancy firm Inaltaria."
         },
         'ali-ahmed-ali': {
             name: 'Ali Ahmed Ali',
@@ -477,9 +477,9 @@
         },
         'christopher-gross': {
             name: 'Christopher Gross',
-            title: 'Global Team Lead',
+            title: 'Team Lead',
             institution: 'GET.transform',
-            bio: "[Bio will be updated soon]"
+            bio: "Christopher is an Energy Specialist and Project Coordinator with extensive experience in energy, climate change, and environmental policy and regulation. He has worked closely with government institutions, including Ministries of Energy and Finance, regulatory bodies, energy agencies, NGOs, consulting firms, and utility companies. His expertise covers power system planning and operations, electricity markets, clean technologies, distributed energy resources, electrification, tariff design, and the evolving role of utilities in future energy systems."
         },
         'cornelia-schenke': {
             name: 'Cornelia Schenk',
@@ -568,8 +568,8 @@
         'lars-jensen': {
             name: 'Lars Georg Jensen',
             title: 'Chief Advisor',
-            institution: 'Danish Energy Agency',
-            bio: "[Bio will be updated soon]"
+            institution: 'Danish Energy Agency, Ministry of Climate, Energy & Utilities, Denmark',
+            bio: "Lars Georg Jensen is Chief Advisor in the Danish Energy Agency's Centre for Global Cooperation, part of the Danish Ministry of Climate, Energy & Utilities. He has until recently been Chief Advisor in the Agency's Centre for Systems Analysis, including serving as Chief Editor of publications such as the annual Danish Energy Outlook, Danish Climate and Energy Outlook and Denmarks Global Climate Impact – Global Report. Lars Georg Jensen has a number of years represented his country in the International Energy Agency's, IEA's Governing Board, Standing Group on Long-Term Co-operation (SLT) and Standing Group on Global Dialogue (SGD). Since 2023 he is Vice-Chair and currently Acting Chairman of the SLT. Lars Georg Jensen has also at seven occasions served as team leader of IEA In-Depth Review's of member countries energy policies. Previously, Lars Georg Jensen was deputy director in the secretariat of the Danish Commission on Climate Change Policy. Lars Georg Jensen participated in the early days of international negotiations on climate change and sustainable development, including more than 35 UN conferences on climate change, energy and/or sustainable development, 14 COPs to the UNFCCC as well as the 1992 United Nations Conference on Environment and Development in Rio de Janeiro.   Prior to joining the Danish Energy Agency in 2004, Lars Georg Jensen worked more than ten years for Non Governmental Organisations in the field of environment and development, including leading delegations to COPs. Lars Georg Jensen holds a Masters Degree in Political Science from the University of Copenhagen (1999)."
         },
         'lucas-oliveira': {
             name: 'Lucas Simões de Oliveira',
@@ -681,9 +681,9 @@
         },
         'usman-ahmad': {
             name: 'Usman Ahmad',
-            title: 'Data Management Specialist',
-            institution: 'Energy Planning & Resource Center, Energy Wing, Ministry of Planning, Development & Special Initiatives, Pakistan',
-            bio: "[Bio will be updated soon]"
+            title: 'Energy Modeler & Data Management Specialist',
+            institution: 'Energy Planning & Resource Center (EPRC), Energy Wing, Ministry of Planning, Development & Special Initiatives, Government of Pakistan',
+            bio: "I am currently working with the Integrated Energy Planning (IEP) platform, where I oversee activities related to energy modelling. I have hands-on experience with STATA, LEAP, and MARKAL/TIMES energy modelling tools. In addition to modelling, I have extensive experience in energy data management, including data collection, refinement, and analysis, covering both trend and gap analysis. I hold BS and MS degrees in Information Technology (IT), and prior to my current role, I worked at Teradata and Jazz (a leading telecom company in Pakistan) as ETL & ERP developer and Business Intelligence (BI) reporting analyst, respectively."
         }
     };
 
