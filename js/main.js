@@ -637,6 +637,12 @@
             institution: 'European Commission',
             bio: "[Bio will be updated soon]"
         },
+        'reshma-francy': {
+            name: 'Reshma Francy',
+            title: 'Associate Director, Policy Pathfinding and Trilemma',
+            institution: 'World Energy Council',
+            bio: "[Bio will be updated soon]"
+        },
         'ricardo-aguiar': {
             name: 'Ricardo Aguiar',
             title: 'Senior Researcher, Division of Studies and Energy Sustainability',
@@ -678,6 +684,12 @@
             title: 'Principal Scientist in Carbon Neutral Solutions',
             institution: 'VTT Finland',
             bio: "Tiina Koljonen has over 30 years' experience in sustainable energy systems and transition to carbon neutral societies. Her major duties include delivering climate, energy and RDI policy impact analysis for the Finnish Government and Parliament, European Commission, and Nordic Council of Ministers. She coordinates national research projects to support Finland's energy and climate strategy towards carbon neutrality by 2035."
+        },
+        'tobias-augspurger': {
+            name: 'Tobias Augspurger',
+            title: 'Head of Data',
+            institution: 'Open Energy Transition',
+            bio: "[Bio will be updated soon]"
         },
         'usman-ahmad': {
             name: 'Usman Ahmad',
