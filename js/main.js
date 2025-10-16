@@ -565,6 +565,12 @@
             institution: 'International Renewable Energy Agency (IRENA) IITC',
             bio: "Juan José García is a Programme Officer at the International Renewable Energy Agency (IRENA), leading the Global Long-Term Energy Scenarios (LTES) Network. With over 17 years of experience in renewable energy, energy policy, and long-term energy planning, he specializes in energy system modelling, policy development, and international collaboration for clean energy transitions."
         },
+        'larissa-pinheiro': {
+            name: 'Larissa Pinheiro Pupo Nogueira',
+            title: 'Team Lead, Energy Modelling and Planning',
+            institution: 'International Renewable Energy Agency (IRENA)',
+            bio: "[Bio will be updated soon]"
+        },
         'lars-jensen': {
             name: 'Lars Georg Jensen',
             title: 'Chief Advisor',
