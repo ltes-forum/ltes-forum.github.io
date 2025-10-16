@@ -690,6 +690,9 @@
     /**
      * Speakers Carousel Navigation
      */
+    // Shared state between carousel and modal
+    let carouselHasMoved = false;
+
     function initSpeakersCarousel() {
         const track = document.getElementById('speakersTrack');
         const viewport = track?.parentElement;
@@ -777,6 +780,7 @@
         // Touch/drag event handlers
         function touchStart(e) {
             isDragging = true;
+            carouselHasMoved = false;
             startX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
             prevTranslate = -currentIndex * cardWidth;
             track.style.transition = 'none';
@@ -792,6 +796,12 @@
 
             const currentX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
             const diff = currentX - startX;
+
+            // Mark as moved if dragged more than 5px
+            if (Math.abs(diff) > 5) {
+                carouselHasMoved = true;
+            }
+
             currentTranslate = prevTranslate + diff;
 
             // Add resistance at boundaries
@@ -814,16 +824,24 @@
 
             const movedBy = currentTranslate - prevTranslate;
 
-            // If moved enough negative, go to next slide
-            if (movedBy < -50 && currentIndex < maxIndex) {
-                currentIndex += 1;
-            }
-            // If moved enough positive, go to previous slide
-            else if (movedBy > 50 && currentIndex > 0) {
-                currentIndex -= 1;
+            // Only navigate if user actually dragged
+            if (carouselHasMoved) {
+                // If moved enough negative, go to next slide
+                if (movedBy < -50 && currentIndex < maxIndex) {
+                    currentIndex += 1;
+                }
+                // If moved enough positive, go to previous slide
+                else if (movedBy > 50 && currentIndex > 0) {
+                    currentIndex -= 1;
+                }
             }
 
             updateCarousel();
+
+            // Reset carouselHasMoved after a short delay to allow click events
+            setTimeout(() => {
+                carouselHasMoved = false;
+            }, 100);
         }
 
         function animation() {
@@ -894,7 +912,12 @@
 
         // Open modal
         speakerCards.forEach(card => {
-            card.addEventListener('click', function() {
+            card.addEventListener('click', function(e) {
+                // Don't open modal if user was dragging the carousel
+                if (carouselHasMoved) {
+                    return;
+                }
+
                 const speakerId = this.getAttribute('data-speaker');
                 const speaker = speakerData[speakerId];
 
