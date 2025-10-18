@@ -535,12 +535,6 @@
             institution: 'International Renewable Energy Agency (IRENA) IITC',
             bio: "[Bio will be updated soon]"
         },
-        'hanne-jersild': {
-            name: 'Hanne Jersild',
-            title: 'Deputy Director',
-            institution: 'Ministry of Climate, Energy, Denmark',
-            bio: "[Bio will be updated soon]"
-        },
         'james-glynn': {
             name: 'James Glynn',
             title: 'CEO',
