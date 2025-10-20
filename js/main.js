@@ -639,9 +639,9 @@
         },
         'reshma-francy': {
             name: 'Reshma Francy',
-            title: 'Associate Director, Policy Pathfinding and Trilemma',
+            title: 'Associate Director, Energy Trilemma and Policy Pathfinding',
             institution: 'World Energy Council',
-            bio: "[Bio will be updated soon]"
+            bio: "With over a decade of experience in clean energy and climate change, Reshma leads the World Energy Council's World Energy Trilemma program. She led the development of the latest Trilemma report, launched at the World Energy Congress in April 2024, which provides extensive global and regional insights. As the Associate Director of Policy Pathfinding and Trilemma, she developed stakeholder engagement strategies based on the World Energy Trilemma Framework, focusing on energy security, energy equity, and environmental sustainability. She has organized sessions at the World Energy Congress in Rotterdam and is spearheading the evolution of the Trilemma to reflect new trends in these three pillars, integrating quantitative frameworks with current energy narratives. Additionally, she has managed the Council's World Energy Scenarios program, overseeing the design and execution of scenario workshops and utilizing the Council's policy simulator for national and regional policy pathways. Before joining the Council, Reshma was a policymaker in the UAE, and led the creation of the country's first national energy strategy with ambitious renewable energy targets. She was also a key member of the UAE's climate change negotiation team for the Paris Agreement, contributing to the formulation of the first Nationally Determined Contributions."
         },
         'ricardo-aguiar': {
             name: 'Ricardo Aguiar',
