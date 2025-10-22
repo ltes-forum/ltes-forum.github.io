@@ -204,6 +204,20 @@
             meta: 'Day 1 • 9:30-11:15',
             title: 'Long-term Energy Scenarios Frameworks and NDC Alignment in Practice',
             cohost: 'Co-host: UNFCCC',
+            moderators: [
+                { id: 'simon-benmarraze', name: 'Simon Benmarraze', role: 'Moderator (Panel 1)' },
+                { id: 'marcela-jaramillo', name: 'Marcela Jaramillo', role: 'Moderator (Panel 2)' }
+            ],
+            speakers: [
+                { id: 'carlos-ruiz', name: 'Carlos Ruiz Sanchez' },
+                { id: 'juan-garcia', name: 'Juan Jose Garcia' },
+                { id: 'stelios-grafakos', name: 'Stelios Grafakos' },
+                { id: 'mohammad-tahavori', name: 'Mohammad Amin Tahavori' },
+                { id: 'sebastian-sterl', name: 'Sebastian Sterl' },
+                { id: 'estefania-ardila', name: 'Estefania Ardila' },
+                { id: 'aurora-gonzalez', name: 'Aurora Recio Gonzalez' },
+                { id: 'gabriel-velasquez', name: 'Gabriel Armando Velasquez' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>As countries prepare their third round of Nationally Determined Contributions (NDCs 3.0) in 2025, effective coordination between energy, climate, and finance ministries has become essential. Long-term energy scenarios (LTES) provide the analytical foundation for climate strategies, but their impact depends on whether results are taken up in national decision-making processes.</p>
@@ -230,6 +244,16 @@
             meta: 'Day 1 • 11:45-13:15',
             title: 'Turning Grid Planning into Bankable Grid Pipelines',
             cohost: 'Co-host: Brazil - GCEP',
+            moderators: [
+                { id: 'simon-benmarraze', name: 'Simon Benmarraze', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'arturo-alarcon', name: 'Arturo Alarcon' },
+                { id: 'dennis-volk', name: 'Dennis Volk' },
+                { id: 'cornelia-schenke', name: 'Cornelia Schenke' },
+                { id: 'lucas-oliveira', name: 'Lucas Simões de Oliveira' },
+                { id: 'alvin-jose', name: 'Alvin Jose' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>Transmission and distribution networks are among the most cited bottlenecks to scaling renewables for the clean energy transition. Governments use LTES to map where and when new grid capacity will be needed, but investors need more than long-term projections: they require specific signals that reduce uncertainty i.e. which corridors will advance, what costs are expected, and how risks will be managed.</p>
@@ -259,6 +283,17 @@
             meta: 'Day 1 • 14:15-15:45',
             title: 'Communicating Scenarios to Build Strong Public and Political Support',
             cohost: 'Co-host: Natural Resources Canada',
+            moderators: [
+                { id: 'charlie-heaps', name: 'Charlie Heaps', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'nadeem-goussous', name: 'Nadeem Goussous' },
+                { id: 'evangelos-panos', name: 'Evangelos Panos' },
+                { id: 'franziska-bock', name: 'Franziska Bock' },
+                { id: 'andrzej-ceglarz', name: 'Andrzej Ceglarz' },
+                { id: 'sebastien-debia', name: 'Sebastien Debia' },
+                { id: 'lars-jensen', name: 'Lars Georg Jensen' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>Scenarios are powerful tools for decision-making, but their value depends on how results are communicated and understood. Yet before communicating scenarios, it is essential to recognize that both scenario developers and their audiences bring biases, preconceptions, and priorities that shape how scenarios are created and received. Too often, scenario outputs remain confined to technical audiences, leaving untapped opportunities to build broader public and political support. Governments and institutions are finding that by first acknowledging different perspectives and priorities, then linking scenario insights to everyday concerns—household costs, employment, reliability of supply—they make scenarios more accessible and compelling.</p>
@@ -285,6 +320,20 @@
             meta: 'Day 1 • 16:15-17:45',
             title: 'Institutional Considerations for Adopting Modelling Tools',
             cohost: 'Co-host: GET.transform',
+            moderators: [
+                { id: 'christopher-gross', name: 'Christopher Gross', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'maike-groninger', name: 'Maike Groninger' },
+                { id: 'larissa-pinheiro', name: 'Larissa Pinheiro Pupo Nogueira' },
+                { id: 'edouard-clement', name: 'Edouard Clement' },
+                { id: 'usman-ahmad', name: 'Usman Ahmad' },
+                { id: 'ali-ahmed-ali', name: 'Ali Ahmed Ali' },
+                { id: 'carla-cannone', name: 'Carla Cannone' },
+                { id: 'maximilian-parzen', name: 'Maximilian Parzen' },
+                { id: 'lars-jensen', name: 'Lars Georg Jensen' },
+                { id: 'charlie-heaps', name: 'Charlie Heaps' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>Many governments face the challenge of sustaining modelling capacity: skilled staff move on, funding cycles are short, and tool deployment takes longer than policy timelines allow. While open-source tools can reduce costs and increase transparency, they require governance arrangements to ensure they are maintained and used consistently across ministries.</p>
@@ -311,6 +360,13 @@
             meta: 'Day 2 • 9:45-11:15',
             title: 'Addressing Supply Chain Uncertainties',
             cohost: 'Co-host: European Commission JRC',
+            moderators: [
+                { id: 'nicola-magnani', name: 'Nicola Magnani', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
+                { id: 'james-glynn', name: 'James Glynn' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>Global supply chains for critical energy technologies—batteries, solar modules, electrolyzers, wind turbines, and related components—are increasingly exposed to geopolitical risks, trade disputes, and market concentration. Disruptions or bottlenecks can delay deployment, raise costs, and undermine national transition strategies.</p>
@@ -337,7 +393,18 @@
             number: '6',
             meta: 'Day 2 • 11:45-13:15',
             title: 'Addressing the Future of Digitalization Through Demand-side Planning',
-            cohost: '',
+            cohost: 'Co-host: VTT Technical Research Centre, Finland',
+            moderators: [
+                { id: 'tiina-koljonen', name: 'Tiina Koljonen', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'adrian-gonzalez', name: 'Adrian Gonzalez' },
+                { id: 'andrea-wainer', name: 'Andrea Wainer' },
+                { id: 'ricardo-aguiar', name: 'Ricardo Aguiar' },
+                { id: 'marija-miletic', name: 'Marija Miletic' },
+                { id: 'seoungho-lee', name: 'Seoungho Lee' },
+                { id: 'johanna-castellanos', name: 'Johanna Stella Castellanos Arias' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>Digitalization is becoming a structural driver of electricity demand. Data centers, AI computing clusters, and digital industrial hubs are expanding rapidly, often with concentrated siting and steep load profiles. If not anticipated, these loads risk creating bottlenecks for grids and delaying renewable integration.</p>
@@ -364,6 +431,17 @@
             meta: 'Day 2 • 14:15-15:30',
             title: 'Governing AI in Energy Planning',
             cohost: 'Co-host: UAE',
+            moderators: [
+                { id: 'juan-garcia', name: 'Juan Jose Garcia', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'david-mccollum', name: 'David McCollum' },
+                { id: 'mohamed-ben-ticha', name: 'Mohamed Bassam Ben Ticha' },
+                { id: 'alvin-jose', name: 'Alvin Jose' },
+                { id: 'mark-howells', name: 'Mark Howells' },
+                { id: 'evangelos-panos', name: 'Evangelos Panos' },
+                { id: 'tobias-augspurger', name: 'Tobias Augspurger' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>Artificial Intelligence (AI) is increasingly present and influencing energy modelling and planning workflows. Research institutions and international organizations have tested and piloted applications ranging from grid optimization to AI-enhanced geospatial data, automated scenario analysis, and AI bots for training and capacity building. These pilots show AI potential to accelerate analysis and broaden scenario exploration, but they also expose challenges of trust, validation, data privacy, data quality, and explainability.</p>
@@ -389,6 +467,14 @@
             meta: 'Day 2 • 16:00-17:15',
             title: 'Embedding Just Transition in National Scenario Frameworks',
             cohost: 'Co-host: Brazil - GCEP',
+            moderators: [
+                { id: 'reshma-francy', name: 'Reshma Francy', role: 'Moderator' }
+            ],
+            speakers: [
+                { id: 'arnaldo-santos', name: 'Arnaldo dos Santos Junior' },
+                { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
+                { id: 'lars-jensen', name: 'Lars Georg Jensen' }
+            ],
             concept: `
                 <h4>Context</h4>
                 <p>The Global LTES Network has consistently highlighted the role of scenarios as decision-support tools for governments navigating complex transitions. In many countries, just transition has emerged as a political and economic imperative; requiring policy packages that address labor market shifts, regional economic impacts, and social protection. Recent UNFCCC Just Transition Work Programme dialogues, including the fourth dialogue in Addis Ababa, stressed that transition pathways must be nationally defined, equity-based, and fiscally viable, with active participation of workers, communities, and vulnerable groups.</p>
@@ -438,6 +524,12 @@
             title: 'Director, Energy System',
             institution: 'Renewables Grid Initiative',
             bio: "Andrzej Ceglarz is a doctoral researcher at the Technical University of Munich and a project manager at the Renewables Grid Initiative (RGI), where he works in the Sustainable Energy Transitions Laboratory (SENTINEL) project. Before that he worked at the Potsdam Institute for Climate Impact Research (PIK) and he was a visiting fellow at Institute for Structural Research (Warsaw), Institute for European Studies (Brussels) and European University Institute (Florence). His research interests lie in climate and energy policies (with a focus on Poland, Germany and the EU), social acceptability of energy infrastructure, and transdisciplinarity in the field of energy."
+        },
+        'andrea-wainer': {
+            name: 'Andrea Wainer',
+            title: 'Project Manager',
+            institution: 'REN21',
+            bio: "Biography will be added soon."
         },
         'arnaldo-santos': {
             name: 'Arnaldo dos Santos Junior',
@@ -633,9 +725,9 @@
         },
         'nicola-magnani': {
             name: 'Nicola Magnani',
-            title: 'Joint Research Centre (JRC)',
-            institution: 'European Commission',
-            bio: "[Bio will be updated soon]"
+            title: 'Project Leader, Materials Supply Chains for the Energy Transition',
+            institution: 'European Commission Joint Research Centre (JRC)',
+            bio: "Nicola Magnani is leading the 'Materials supply chains for the energy transition' project of the European Commission's Joint Research Centre, and is a Commission Official since 2016. At that point, he had fifteen years of academic experience as a quantum physicist with a strong focus towards material science, nanotechnology and statistical mechanics. Apart from his team's work on critical raw materials, he is strongly interested in activities aimed at better understanding the science-policy interface and improving the communication of scientific results to policy makers."
         },
         'reshma-francy': {
             name: 'Reshma Francy',
@@ -989,8 +1081,116 @@
         const modalOverlay = document.getElementById('sessionModalOverlay');
         const modalClose = document.getElementById('sessionModalClose');
         const sessionCards = document.querySelectorAll('.session--clickable');
+        const speakerModal = document.getElementById('speakerModal');
+        const speakerModalOverlay = document.getElementById('modalOverlay');
 
         if (!modal || !sessionCards.length) return;
+
+        /**
+         * Helper function to create a participant card
+         */
+        function createParticipantCard(person) {
+            const speaker = speakerData[person.id];
+            if (!speaker) return null;
+
+            const card = document.createElement('div');
+            card.className = 'participant-card';
+            card.setAttribute('data-speaker', person.id);
+
+            // Create image container
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'participant-card__image';
+
+            // Try to load image
+            const img = document.createElement('img');
+            const imagePath = `images/speakers/${person.id}.jpg`;
+            img.src = imagePath;
+            img.alt = person.name;
+
+            // Create placeholder for initials
+            const placeholder = document.createElement('div');
+            placeholder.className = 'participant-card__placeholder';
+            const initials = person.name.split(' ').map(n => n[0]).join('');
+            placeholder.textContent = initials;
+
+            // Handle image load/error
+            img.onerror = function() {
+                img.style.display = 'none';
+                placeholder.style.display = 'flex';
+            };
+
+            img.onload = function() {
+                img.style.display = 'block';
+                placeholder.style.display = 'none';
+            };
+
+            imageContainer.appendChild(img);
+            imageContainer.appendChild(placeholder);
+
+            // Create name
+            const nameElement = document.createElement('div');
+            nameElement.className = 'participant-card__name';
+            nameElement.textContent = person.name;
+
+            // Create organization
+            const orgElement = document.createElement('div');
+            orgElement.className = 'participant-card__org';
+            orgElement.textContent = speaker.institution || '';
+
+            // Create role (for moderators)
+            let roleElement = null;
+            if (person.role) {
+                roleElement = document.createElement('div');
+                roleElement.className = 'participant-card__role';
+                roleElement.textContent = person.role;
+            }
+
+            // Assemble card
+            card.appendChild(imageContainer);
+            card.appendChild(nameElement);
+            card.appendChild(orgElement);
+            if (roleElement) card.appendChild(roleElement);
+
+            // Add click handler to open speaker modal
+            card.addEventListener('click', function() {
+                openSpeakerModal(person.id, img, placeholder);
+            });
+
+            return card;
+        }
+
+        /**
+         * Helper function to open speaker modal
+         */
+        function openSpeakerModal(speakerId, imgElement, placeholderElement) {
+            const speaker = speakerData[speakerId];
+            if (!speaker || !speakerModal) return;
+
+            // Populate speaker modal
+            document.getElementById('modalName').textContent = speaker.name;
+            document.getElementById('modalTitle').textContent = speaker.title;
+            document.getElementById('modalInstitution').textContent = speaker.institution;
+            document.getElementById('modalBio').innerHTML = `<p>${speaker.bio}</p>`;
+
+            // Handle image
+            const modalImg = document.getElementById('modalImage');
+            const modalPlaceholder = document.getElementById('modalPlaceholder');
+
+            if (imgElement && imgElement.style.display !== 'none') {
+                modalImg.src = imgElement.src;
+                modalImg.alt = imgElement.alt;
+                modalImg.style.display = 'block';
+                modalPlaceholder.style.display = 'none';
+            } else {
+                modalImg.style.display = 'none';
+                modalPlaceholder.textContent = placeholderElement.textContent;
+                modalPlaceholder.style.display = 'flex';
+            }
+
+            // Show speaker modal
+            speakerModal.classList.add('is-open');
+            document.body.style.overflow = 'hidden';
+        }
 
         // Open modal
         sessionCards.forEach(card => {
@@ -1011,6 +1211,32 @@
                     cohostElement.style.display = 'block';
                 } else {
                     cohostElement.style.display = 'none';
+                }
+
+                // Populate moderators
+                const moderatorsContainer = document.getElementById('sessionModalModerators');
+                moderatorsContainer.innerHTML = '';
+                if (session.moderators && session.moderators.length > 0) {
+                    session.moderators.forEach(moderator => {
+                        const card = createParticipantCard(moderator);
+                        if (card) moderatorsContainer.appendChild(card);
+                    });
+                    document.querySelector('.session-modal__moderators').style.display = 'block';
+                } else {
+                    document.querySelector('.session-modal__moderators').style.display = 'none';
+                }
+
+                // Populate speakers
+                const speakersContainer = document.getElementById('sessionModalSpeakers');
+                speakersContainer.innerHTML = '';
+                if (session.speakers && session.speakers.length > 0) {
+                    session.speakers.forEach(speaker => {
+                        const card = createParticipantCard(speaker);
+                        if (card) speakersContainer.appendChild(card);
+                    });
+                    document.querySelector('.session-modal__speakers').style.display = 'block';
+                } else {
+                    document.querySelector('.session-modal__speakers').style.display = 'none';
                 }
 
                 document.getElementById('sessionModalConcept').innerHTML = session.concept;
