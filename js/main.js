@@ -666,7 +666,7 @@
         'lucas-oliveira': {
             name: 'Lucas Simões de Oliveira',
             title: 'Transmission Planning Team',
-            institution: 'Global Coalition for Energy Planning',
+            institution: 'EPE Brazil',
             bio: "Lucas is an Electrical Engineer specialized in Power Systems, holding an MBA from Fundação Getulio Vargas (FGV) and currently pursuing a Master's degree in Production Engineering at the University of São Paulo (USP). He is responsible for developing techno-economic studies to support the expansion of Brazil's National Interconnected System (SIN) across the states of Rio de Janeiro, Espírito Santo, Minas Gerais, Goiás, Mato Grosso, Acre, and Rondônia."
         },
         'maike-groninger': {
