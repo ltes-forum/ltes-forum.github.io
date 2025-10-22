@@ -473,7 +473,8 @@
             speakers: [
                 { id: 'arnaldo-santos', name: 'Arnaldo dos Santos Junior' },
                 { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
-                { id: 'lars-jensen', name: 'Lars Georg Jensen' }
+                { id: 'lars-jensen', name: 'Lars Georg Jensen' },
+                { id: 'liza-pangilinan', name: 'Liza V. Pangilinan' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -662,6 +663,12 @@
             title: 'Chief Advisor',
             institution: 'Danish Energy Agency, Ministry of Climate, Energy & Utilities, Denmark',
             bio: "Lars Georg Jensen is Chief Advisor in the Danish Energy Agency's Centre for Global Cooperation, part of the Danish Ministry of Climate, Energy & Utilities. He has until recently been Chief Advisor in the Agency's Centre for Systems Analysis, including serving as Chief Editor of publications such as the annual Danish Energy Outlook, Danish Climate and Energy Outlook and Denmarks Global Climate Impact – Global Report. Lars Georg Jensen has a number of years represented his country in the International Energy Agency's, IEA's Governing Board, Standing Group on Long-Term Co-operation (SLT) and Standing Group on Global Dialogue (SGD). Since 2023 he is Vice-Chair and currently Acting Chairman of the SLT. Lars Georg Jensen has also at seven occasions served as team leader of IEA In-Depth Review's of member countries energy policies. Previously, Lars Georg Jensen was deputy director in the secretariat of the Danish Commission on Climate Change Policy. Lars Georg Jensen participated in the early days of international negotiations on climate change and sustainable development, including more than 35 UN conferences on climate change, energy and/or sustainable development, 14 COPs to the UNFCCC as well as the 1992 United Nations Conference on Environment and Development in Rio de Janeiro.   Prior to joining the Danish Energy Agency in 2004, Lars Georg Jensen worked more than ten years for Non Governmental Organisations in the field of environment and development, including leading delegations to COPs. Lars Georg Jensen holds a Masters Degree in Political Science from the University of Copenhagen (1999)."
+        },
+        'liza-pangilinan': {
+            name: 'Liza V. Pangilinan',
+            title: 'Chief, NREB TSMD',
+            institution: 'Department of Energy, Philippines',
+            bio: "[Bio will be updated soon]"
         },
         'lucas-oliveira': {
             name: 'Lucas Simões de Oliveira',
