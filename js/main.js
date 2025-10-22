@@ -363,7 +363,7 @@
             number: '7',
             meta: 'Day 2 • 14:15-15:30',
             title: 'Governing AI in Energy Planning',
-            cohost: '',
+            cohost: 'Co-host: UAE',
             concept: `
                 <h4>Context</h4>
                 <p>Artificial Intelligence (AI) is increasingly present and influencing energy modelling and planning workflows. Research institutions and international organizations have tested and piloted applications ranging from grid optimization to AI-enhanced geospatial data, automated scenario analysis, and AI bots for training and capacity building. These pilots show AI potential to accelerate analysis and broaden scenario exploration, but they also expose challenges of trust, validation, data privacy, data quality, and explainability.</p>
