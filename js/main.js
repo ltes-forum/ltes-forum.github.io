@@ -467,7 +467,7 @@
             name: 'Carlos Ruiz Sanchez',
             title: 'Programme Officer',
             institution: 'UNFCCC',
-            bio: "[Bio will be updated soon]"
+            bio: "Carlos Ruiz is a Program Officer at UNFCCC. He leads the work on energy transition and industrial decarbonization within the NDC Technical Support Unit. He has 15 years of experience in the field of renewable energy and sustainable development, having worked in both the private and public sectors on a diverse range of topics including long-term energy planning, project development and financing, and emission reduction strategies for energy end-use sectors. Carlos's academic background is in mechanical and electrical engineering and he holds a Master's degree in Sustainable Energy Technologies from the Royal Institute of Technology of Sweden (KTH)."
         },
         'charlie-heaps': {
             name: 'Charlie Heaps',
@@ -591,9 +591,9 @@
         },
         'marija-miletic': {
             name: 'Marija Miletic',
-            title: 'Energy Analyst',
-            institution: 'European Commission JRC',
-            bio: "[Bio will be updated soon]"
+            title: 'Joint Research Center (JRC)',
+            institution: 'European Commission',
+            bio: "Marija earned her master's degree from the University of Zagreb, where she subsequently pursued her passion for research. She is now applying her expertise in electrical power systems modelling at the Joint Research Centre, focusing on analysing the implications of climate change on these systems and their consumers."
         },
         'mark-howells': {
             name: 'Mark Howells',
