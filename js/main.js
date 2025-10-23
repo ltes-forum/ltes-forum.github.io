@@ -531,7 +531,7 @@
             name: 'Andrea Wainer',
             title: 'Project Manager',
             institution: 'REN21',
-            bio: "Biography will be added soon."
+            bio: "Andrea is part of the Knowledge & Data team at REN21, the global renewable energy network of governments, intergovernmental organisations, industry associations, NGOs and academia. At REN21, Andrea has coordinated the Renewable Energy and Sustainability Report (RESR), which is conceived as a reference document bringing together different perspectives to analyse the multiple benefits and identify the best practices to mitigate the potential negative impacts of renewables deployment. She works within the Knowledge and Data team on REN21's Renewables Global Status Report (GSR) and is currently contributing to the evolution of REN21's knowledge and data strategy. She was also the focal point of the PAC consortium where she focused on stakeholder engagement and civil society participation in energy and infrastructure planning. Andrea holds a master's degree in Environment and Resource Management from Vrije Universiteit Amsterdam, and a degree in Visual Communication from the Ecole National Supérieure."
         },
         'arnaldo-santos': {
             name: 'Arnaldo dos Santos Junior',
