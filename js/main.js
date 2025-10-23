@@ -215,7 +215,7 @@
                 { id: 'mohammad-tahavori', name: 'Mohammad Amin Tahavori' },
                 { id: 'sebastian-sterl', name: 'Sebastian Sterl' },
                 { id: 'estefania-ardila', name: 'Estefania Ardila' },
-                { id: 'aurora-gonzalez', name: 'Aurora Recio Gonzalez' },
+                { id: 'aurora-gonzalez', name: 'Aurora Recio González' },
                 { id: 'gabriel-velasquez', name: 'Gabriel Armando Velasquez' }
             ],
             concept: `
@@ -248,9 +248,10 @@
                 { id: 'simon-benmarraze', name: 'Simon Benmarraze', role: 'Moderator' }
             ],
             speakers: [
+                { id: 'gayathri-nair', name: 'Gayathri Nair' },
                 { id: 'arturo-alarcon', name: 'Arturo Alarcon' },
                 { id: 'dennis-volk', name: 'Dennis Volk' },
-                { id: 'cornelia-schenke', name: 'Cornelia Schenke' },
+                { id: 'cornelia-schenk', name: 'Cornelia Schenk' },
                 { id: 'lucas-oliveira', name: 'Lucas Simões de Oliveira' },
                 { id: 'alvin-jose', name: 'Alvin Jose' }
             ],
@@ -428,7 +429,7 @@
         },
         '7': {
             number: '7',
-            meta: 'Day 2 • 14:15-15:30',
+            meta: 'Day 2 • 14:15-15:40',
             title: 'Governing AI in Energy Planning',
             cohost: 'Co-host: UAE',
             moderators: [
@@ -546,9 +547,9 @@
         },
         'aurora-gonzalez': {
             name: 'Aurora Recio González',
-            title: 'Head of Energy Foresight and Statistics Unit',
+            title: 'Head of Energy Foresight and Statistics',
             institution: 'Ministry for the Ecological Transition and the Demographic Challenge, Spain',
-            bio: "[Bio will be updated soon]"
+            bio: "Ms. Aurora Recio González is an engineer working at the Deputy Directorate-General for Energy Foresight and Statistics, Ministry for the Ecological Transition and the Demographic Challenge (Madrid, Spain). She began working in the energy sector 13 years ago and received her bachelor's degree in Industrial Engineering from UPM University of Madrid in 2012. Her work over the past five years has focused on energy transition policies and energy foresight models."
         },
         'carla-cannone': {
             name: 'Carla Cannone',
@@ -574,7 +575,7 @@
             institution: 'GET.transform',
             bio: "Christopher is an Energy Specialist and Project Coordinator with extensive experience in energy, climate change, and environmental policy and regulation. He has worked closely with government institutions, including Ministries of Energy and Finance, regulatory bodies, energy agencies, NGOs, consulting firms, and utility companies. His expertise covers power system planning and operations, electricity markets, clean technologies, distributed energy resources, electrification, tariff design, and the evolving role of utilities in future energy systems."
         },
-        'cornelia-schenke': {
+        'cornelia-schenk': {
             name: 'Cornelia Schenk',
             title: 'Clean Energy Finance and Investment Policy Analyst',
             institution: 'OECD',
@@ -620,13 +621,13 @@
             name: 'Gabriel Armando Velásquez',
             title: 'Technical Director of Energy and Mining Planning (UPEM)',
             institution: 'Ministry of Energy and Mines of Guatemala',
-            bio: "Gabriel Velásquez is the Technical Director of Energy and Mining Planning (UPEM) at the Ministry of Energy and Mines of Guatemala, where he oversees national energy and mining policies and plans. He has over 13 years of experience across government, academia, and the private sector, specializing in public policy, energy planning, and higher education. Under his leadership, Guatemala has developed key policy and planning instruments including the National Energy Policy 2013–2027, Energy Policy 2019–2050, the National Energy Plan, and the Energy Efficiency Policy 2023–2050. Gabriel has represented Guatemala in regional and international forums, including SICA and the UN, and has collaborated with organizations such as IRENA, OLADE, ECLAC, IDB, and GIZ."
+            bio: "Electrical Mechanical Engineer with over 14 years of experience in the public, private, and academic energy sectors. Specialist in energy policy, regulation, and planning, with extensive experience in the formulation and implementation of national policies, energy efficiency, and the transition toward clean energy. He has held strategic positions at the Ministry of Energy and Mines of Guatemala, including Deputy Technical Director of Energy, Acting General Director of Energy, and Technical Director of Energy Planning, leading teams of up to 100 people and representing the country before international organizations. He currently serves as Guatemala's Alternate Director on the Board of the Regional Electricity Market (MER). Among his main achievements are the 2019–2050 Energy Policy, the 2022–2050 National Energy Efficiency Policy, the Electromobility Law (Decree 40-2022), the development of the energy sector's NDC, and the Generation and Transmission Expansion Plans. He has represented Guatemala before regional and international forums, including SICA and the UN, and has collaborated with organizations such as IRENA, OLADE, ECLAC, IDB, and GIZ."
         },
         'gayathri-nair': {
             name: 'Gayathri Nair',
             title: 'Programme Officer, Technology and Infrastructure for Grid Integration',
             institution: 'International Renewable Energy Agency (IRENA) IITC',
-            bio: "[Bio will be updated soon]"
+            bio: "Gayathri Nair works for IRENA as a Programme Officer-Technology and Infrastructure for Grid Integration. She has led several projects providing technical assistance and capacity building on renewable energy integration into power grids, with specific focus for LDC's and SIDS and working in close collaboration with key country stakeholders. These support power system operators in developing system specific pathways to decarbonize and modernize their power sector by recommending economically viable, advanced technical solutions and policies that encourage the maximum utilization of existing infrastructure while prioritizing renewable generation. She coordinates the creation of grid assessment models and technical documentation, and develops technical products such as reports, webinars, training programs, and workshops that provide technical guidance to power system operators on how to operate the system with high proportions of variable renewable energy and building resilient power systems. Her work also encompasses the new streams at IRENA on grid modernisation and interconnectors. She has a doctorate in electrical engineering and a master's degree in industrial systems and drives. In her PhD she investigated different types of and roles for storage systems for better integration of renewables She worked as an academician in India before joining IRENA."
         },
         'james-glynn': {
             name: 'James Glynn',
@@ -795,6 +796,18 @@
             title: 'Energy Modeler & Data Management Specialist',
             institution: 'Energy Planning & Resource Center (EPRC), Energy Wing, Ministry of Planning, Development & Special Initiatives, Government of Pakistan',
             bio: "I am currently working with the Integrated Energy Planning (IEP) platform, where I oversee activities related to energy modelling. I have hands-on experience with STATA, LEAP, and MARKAL/TIMES energy modelling tools. In addition to modelling, I have extensive experience in energy data management, including data collection, refinement, and analysis, covering both trend and gap analysis. I hold BS and MS degrees in Information Technology (IT), and prior to my current role, I worked at Teradata and Jazz (a leading telecom company in Pakistan) as ETL & ERP developer and Business Intelligence (BI) reporting analyst, respectively."
+        },
+        'norela-constantinescu': {
+            name: 'Norela Constantinescu',
+            title: 'Acting Director, IITC',
+            institution: 'International Renewable Energy Agency (IRENA)',
+            bio: "Norela Constantinescu is Acting Director at IRENA Innovation and Technology Center. Until May 2024 she was Head of Innovation Section with ENTSO-E, the European Network for Transmission System Operators for electricity for which she worked for 10 years, starting 2014. In the period June 2022 – March 2024 she was chair of the European Technology and Innovation Platform for Smart Network for Energy Transition. Previously she worked with European Commission DG Energy on low carbon technologies, wind and smart cities and communities. She is an energy engineer with post graduate studies in business administration and applied computer science."
+        },
+        'ricardo-gorini': {
+            name: 'Ricardo Gorini',
+            title: 'Head Renewable Energy Transition Roadmaps',
+            institution: 'International Renewable Energy Agency (IRENA)',
+            bio: "Ricardo Gorini holds an MBA in Finance alongside advanced degrees in Energy (master's and PhD). He joined IRENA in 2018 to lead the REmap program, which develops renewable energy roadmaps and transition outlooks, including the \"World Energy Transitions Outlook 2050.\" Prior to IRENA, Gorini worked in financial markets and mining, and served as a policy consultant specializing in energy regulation. He directed Brazil's Energy Research Office (EPE), the nation's primary institution for energy planning analysis."
         }
     };
 
@@ -1387,12 +1400,12 @@
             {
                 title: "Session 7: Governing AI in Energy Planning",
                 start: "2025-10-30T14:15:00",
-                end: "2025-10-30T15:30:00",
+                end: "2025-10-30T15:40:00",
                 description: "Discusses the opportunities and challenges of using artificial intelligence in energy scenario planning."
             },
             {
                 title: "Coffee Break",
-                start: "2025-10-30T15:30:00",
+                start: "2025-10-30T15:40:00",
                 end: "2025-10-30T16:00:00",
                 description: "Afternoon coffee break"
             },
