@@ -366,7 +366,8 @@
             ],
             speakers: [
                 { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
-                { id: 'james-glynn', name: 'James Glynn' }
+                { id: 'james-glynn', name: 'James Glynn' },
+                { id: 'tord-bjorndal', name: 'Tord Bjørndal' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -441,7 +442,8 @@
                 { id: 'alvin-jose', name: 'Alvin Jose' },
                 { id: 'mark-howells', name: 'Mark Howells' },
                 { id: 'evangelos-panos', name: 'Evangelos Panos' },
-                { id: 'tobias-augspurger', name: 'Tobias Augspurger' }
+                { id: 'tobias-augspurger', name: 'Tobias Augspurger' },
+                { id: 'gianluca-lipari', name: 'Gianluca Lipari' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -629,6 +631,12 @@
             institution: 'International Renewable Energy Agency (IRENA) IITC',
             bio: "Gayathri Nair works for IRENA as a Programme Officer-Technology and Infrastructure for Grid Integration. She has led several projects providing technical assistance and capacity building on renewable energy integration into power grids, with specific focus for LDC's and SIDS and working in close collaboration with key country stakeholders. These support power system operators in developing system specific pathways to decarbonize and modernize their power sector by recommending economically viable, advanced technical solutions and policies that encourage the maximum utilization of existing infrastructure while prioritizing renewable generation. She coordinates the creation of grid assessment models and technical documentation, and develops technical products such as reports, webinars, training programs, and workshops that provide technical guidance to power system operators on how to operate the system with high proportions of variable renewable energy and building resilient power systems. Her work also encompasses the new streams at IRENA on grid modernisation and interconnectors. She has a doctorate in electrical engineering and a master's degree in industrial systems and drives. In her PhD she investigated different types of and roles for storage systems for better integration of renewables She worked as an academician in India before joining IRENA."
         },
+        'gianluca-lipari': {
+            name: 'Gianluca Lipari',
+            title: 'Technical Leader - European Projects Coordinator',
+            institution: 'EPRI Europe DAC',
+            bio: "Gianluca Lipari earned his Ph.D. in electronic engineering from the University of Reggio Calabria, Italy, in 2015. Since October 2022, he has served as the European projects coordinator at EPRI Europe. He currently leads the Horizon Europe project AGISTIN as its coordinator."
+        },
         'james-glynn': {
             name: 'James Glynn',
             title: 'CEO',
@@ -789,6 +797,12 @@
             name: 'Tobias Augspurger',
             title: 'Head of Data',
             institution: 'Open Energy Transition',
+            bio: "[Bio will be updated soon]"
+        },
+        'tord-bjorndal': {
+            name: 'Tord Bjørndal',
+            title: 'Lead Regulatory Advisor in Energy Economics',
+            institution: 'Ørsted',
             bio: "[Bio will be updated soon]"
         },
         'usman-ahmad': {
