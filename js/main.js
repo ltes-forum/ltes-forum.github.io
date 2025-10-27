@@ -216,7 +216,8 @@
                 { id: 'sebastian-sterl', name: 'Sebastian Sterl' },
                 { id: 'estefania-ardila', name: 'Estefania Ardila' },
                 { id: 'aurora-gonzalez', name: 'Aurora Recio González' },
-                { id: 'gabriel-velasquez', name: 'Gabriel Armando Velasquez' }
+                { id: 'gabriel-velasquez', name: 'Gabriel Armando Velasquez' },
+                { id: 'ali-ahmed-ali', name: 'Ali Ahmed Ali' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -248,10 +249,10 @@
                 { id: 'simon-benmarraze', name: 'Simon Benmarraze', role: 'Moderator' }
             ],
             speakers: [
-                { id: 'gayathri-nair', name: 'Gayathri Nair' },
+                { id: 'gayathri-nair', name: 'Gayathri Nair', role: 'Scene Setting' },
                 { id: 'arturo-alarcon', name: 'Arturo Alarcon' },
                 { id: 'dennis-volk', name: 'Dennis Volk' },
-                { id: 'cornelia-schenk', name: 'Cornelia Schenk' },
+                { id: 'cornelia-schenke', name: 'Cornelia Schenke' },
                 { id: 'lucas-oliveira', name: 'Lucas Simões de Oliveira' },
                 { id: 'alvin-jose', name: 'Alvin Jose' }
             ],
@@ -333,7 +334,8 @@
                 { id: 'carla-cannone', name: 'Carla Cannone' },
                 { id: 'maximilian-parzen', name: 'Maximilian Parzen' },
                 { id: 'lars-jensen', name: 'Lars Georg Jensen' },
-                { id: 'charlie-heaps', name: 'Charlie Heaps' }
+                { id: 'charlie-heaps', name: 'Charlie Heaps' },
+                { id: 'natalia-alvarado', name: 'Natalia Alvarado Sanabria' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -362,12 +364,13 @@
             title: 'Addressing Supply Chain Uncertainties',
             cohost: 'Co-host: European Commission JRC',
             moderators: [
-                { id: 'nicola-magnani', name: 'Nicola Magnani', role: 'Moderator' }
+                { id: 'nicola-magnani', name: 'Nicola Magnani', role: 'Moderator & Scene Setting' }
             ],
             speakers: [
                 { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
                 { id: 'james-glynn', name: 'James Glynn' },
-                { id: 'tord-bjorndal', name: 'Tord Bjørndal' }
+                { id: 'tord-bjorndal', name: 'Tord Bjørndal' },
+                { id: 'alejandro-morales', name: 'Alejandro Morales Perez' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -437,13 +440,14 @@
                 { id: 'juan-garcia', name: 'Juan Jose Garcia', role: 'Moderator' }
             ],
             speakers: [
+                { id: 'nawal-alhanaee', name: 'Nawal AlHanaee', role: 'Opening Remarks' },
+                { id: 'gianluca-lipari', name: 'Gianluca Lipari', role: 'Scene-setting Presentation' },
                 { id: 'david-mccollum', name: 'David McCollum' },
                 { id: 'mohamed-ben-ticha', name: 'Mohamed Bassam Ben Ticha' },
                 { id: 'alvin-jose', name: 'Alvin Jose' },
                 { id: 'mark-howells', name: 'Mark Howells' },
                 { id: 'evangelos-panos', name: 'Evangelos Panos' },
-                { id: 'tobias-augspurger', name: 'Tobias Augspurger' },
-                { id: 'gianluca-lipari', name: 'Gianluca Lipari' }
+                { id: 'tobias-augspurger', name: 'Tobias Augspurger' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -474,10 +478,12 @@
                 { id: 'reshma-francy', name: 'Reshma Francy', role: 'Moderator' }
             ],
             speakers: [
+                { id: 'mirjam-reiner', name: 'Mirjam Reiner', role: 'Scene-setting Presentation' },
                 { id: 'arnaldo-santos', name: 'Arnaldo dos Santos Junior' },
                 { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
                 { id: 'lars-jensen', name: 'Lars Georg Jensen' },
-                { id: 'liza-pangilinan', name: 'Liza V. Pangilinan' }
+                { id: 'liza-pangilinan', name: 'Liza V. Pangilinan' },
+                { id: 'unnati-gandhi', name: 'Unnati Gandhi' }
             ],
             concept: `
                 <h4>Context</h4>
@@ -581,7 +587,7 @@
             name: 'Cornelia Schenk',
             title: 'Clean Energy Finance and Investment Policy Analyst',
             institution: 'OECD',
-            bio: "Cornelia Schenk has worked in the areas of sustainable energy and energy efficiency for over 12 years, previously having been an advisor at the Austrian Development Agency. She now works as a policy analyst on Energy Efficiency for Emerging Economies, Financing & ESCOs."
+            bio: "Cornelia Schenk has worked in the areas of renewable energy and energy efficiency technologies, policies and financing for 15 years, primarily focusing on technical cooperation with emerging markets and developing economies in Sub-Saharan Africa, Southeast Asia and Small Island Developing States. She is leading the work on energy efficiency financing and co-leading on transmission grid financing across partner countries within the OECD's CEFIM Programme. Prior to joining the OECD, she was leading the energy efficiency finance and investment analysis and the energy efficiency work programme with India at the IEA's Energy Efficiency for Emerging Economies Programme, and worked as a Sustainable Energy Specialist at the Caribbean Centre for Renewable Energy and Energy Efficiency and the Austrian Development Agency. She holds a MSc in environmental technology and international affairs, a Masters in international law (Mag.iur) and is a certified clean energy finance expert."
         },
         'david-mccollum': {
             name: 'David McCollum',
@@ -623,7 +629,7 @@
             name: 'Gabriel Armando Velásquez',
             title: 'Technical Director of Energy and Mining Planning (UPEM)',
             institution: 'Ministry of Energy and Mines of Guatemala',
-            bio: "Electrical Mechanical Engineer with over 14 years of experience in the public, private, and academic energy sectors. Specialist in energy policy, regulation, and planning, with extensive experience in the formulation and implementation of national policies, energy efficiency, and the transition toward clean energy. He has held strategic positions at the Ministry of Energy and Mines of Guatemala, including Deputy Technical Director of Energy, Acting General Director of Energy, and Technical Director of Energy Planning, leading teams of up to 100 people and representing the country before international organizations. He currently serves as Guatemala's Alternate Director on the Board of the Regional Electricity Market (MER). Among his main achievements are the 2019–2050 Energy Policy, the 2022–2050 National Energy Efficiency Policy, the Electromobility Law (Decree 40-2022), the development of the energy sector's NDC, and the Generation and Transmission Expansion Plans. He has represented Guatemala before regional and international forums, including SICA and the UN, and has collaborated with organizations such as IRENA, OLADE, ECLAC, IDB, and GIZ."
+            bio: "Gabriel Velásquez is an electrical mechanical engineer with over 14 years of experience in the public, private, and academic energy sectors. Specialist in energy policy, regulation, and planning, with extensive experience in the formulation and implementation of national policies, energy efficiency, and the transition toward clean energy. He has held strategic positions at the Ministry of Energy and Mines of Guatemala, including Deputy Technical Director of Energy, Acting General Director of Energy, and Technical Director of Energy Planning, leading teams of up to 100 people and representing the country before international organizations. He currently serves as Guatemala's Alternate Director on the Board of the Regional Electricity Market (MER). Among his main achievements are the 2019–2050 Energy Policy, the 2022–2050 National Energy Efficiency Policy, the Electromobility Law (Decree 40-2022), the development of the energy sector's NDC, and the Generation and Transmission Expansion Plans. He has represented Guatemala before organizations such as the OAS, OLADE, SICA, IDB, World Bank, GIZ, EUROCLIMA, and USAID, managing international cooperation and coordinating projects on efficiency, sustainability, electromobility, and green hydrogen. Additionally, he has served as a lecturer and thesis advisor in undergraduate and master's programs on energy and environment. He holds three master's degrees: Renewable Energy and Energy Management (EUDE, 2023), Executive MBA (University of Cádiz, 2022), and Industrial Management (USAC, 2015)."
         },
         'gayathri-nair': {
             name: 'Gayathri Nair',
@@ -635,7 +641,7 @@
             name: 'Gianluca Lipari',
             title: 'Technical Leader - European Projects Coordinator',
             institution: 'EPRI Europe DAC',
-            bio: "Gianluca Lipari earned his Ph.D. in electronic engineering from the University of Reggio Calabria, Italy, in 2015. Since October 2022, he has served as the European projects coordinator at EPRI Europe. He currently leads the Horizon Europe project AGISTIN as its coordinator."
+            bio: "Gianluca Lipari obtained his Ph.D. degree in electronic engineering from the University of Reggio Calabria, Italy, in 2015. Subsequently he joined RWTH Aachen University in Germany, as postdoctoral research associate and served as senior scientist at the Fraunhofer FIT Center for Digital Energy in Aachen. Since October 2022 he has been Technical Leader and European projects coordinator at the Electric Power Research Institute (EPRI) Europe. His research activities focus on the digitalization of the energy system, including cloud applications for cyber-physical systems monitoring and automation, interoperability, data driven and Artificial Intelligence-powered approaches for electricity grids management and operation, distributed generation and electrical storage integration. Dr. Lipari is the coordinator of the Horizon Europe project AGISTIN, for the advanced integration of renewables and storage solutions in industrial processes, and the AI-EFFECT Horizon Europe project, aiming at the creation of a Testing and Experimentation Facility (TEF) for the development of AI solutions in the energy sector. Currently he is involved in the Horizon Europe int:net project for the creation of a European interoperability network for the energy transition, leading the development of interoperability maturity assessment tools."
         },
         'james-glynn': {
             name: 'James Glynn',
@@ -665,7 +671,7 @@
             name: 'Larissa Pinheiro Pupo Nogueira',
             title: 'Team Lead, Energy Modelling and Planning',
             institution: 'International Renewable Energy Agency (IRENA)',
-            bio: "[Bio will be updated soon]"
+            bio: "Dr. Larissa Nogueira has over a decade of experience in energy system analysis and techno-economic assessments of clean energy technologies to foster the green energy transition. Her main role at IRENA includes coordinating the delivery of technical analysis and technical support to key countries and regions on green energy transition pathways and associated investment needs. Larissa's expertise extends globally, having supported and led energy planning and climate policy initiatives across various regions and countries, encompassing governments, private sector, IGOs and NGOs."
         },
         'lars-jensen': {
             name: 'Lars Georg Jensen',
@@ -675,15 +681,15 @@
         },
         'liza-pangilinan': {
             name: 'Liza V. Pangilinan',
-            title: 'Chief, NREB TSMD',
-            institution: 'Department of Energy, Philippines',
-            bio: "[Bio will be updated soon]"
+            title: 'Chief Science Research Specialist',
+            institution: 'Department of Energy, The Philippines',
+            bio: "Ms. Liza V. Pangilinan is the Division Chief of the Technical Services Management Division at the Renewable Energy Management Bureau (REMB) of the Department of Energy (DOE). With over 20 years of dedicated service at the DOE, she has played a pivotal role in promoting the development and commercialization of renewable energy resources in the Philippines. She has also led the implementation of various policy mechanisms such as the Green Energy Auction Program (GEAP), Green Energy Option Program (GEOP), Renewable Energy Market, Feed-In Tariff (FiT), and Renewable Portfolio Standards (RPS). In addition, Ms. Pangilinan represents the DOE in various international forums, including the International Renewable Energy Agency (IRENA), ASEAN Renewable Energy Sub-Sector Network (RE-SSN), and APEC Expert Group on New and Renewable Energy Technology (EGNRET). She also serves as one of the Board of Judges for the RE-SSN Renewable Energy Awards in 2023, 2024 and 2025 held in Vientiane, Lao PDR, Kuala Lumpur, Malaysia and Penang Malaysia. With her extensive expertise and leadership, Ms. Pangilinan continues to be a driving force in advancing renewable energy initiatives, ensuring a sustainable energy future for the Philippines."
         },
         'lucas-oliveira': {
             name: 'Lucas Simões de Oliveira',
             title: 'Transmission Planning Team',
             institution: 'EPE Brazil',
-            bio: "Lucas is an Electrical Engineer specialized in Power Systems, holding an MBA from Fundação Getulio Vargas (FGV) and currently pursuing a Master's degree in Production Engineering at the University of São Paulo (USP). He is responsible for developing techno-economic studies to support the expansion of Brazil's National Interconnected System (SIN) across the states of Rio de Janeiro, Espírito Santo, Minas Gerais, Goiás, Mato Grosso, Acre, and Rondônia."
+            bio: "Lucas Oliveira holds a degree in Electrical Engineering from the Federal University of Campina Grande – UFCG (2014), an MBA in Business Management from Fundação Getúlio Vargas – FGV (2019), and is currently pursuing a master's degree in production engineering at the Polytechnic School of the University of São Paulo – USP. Since 2015, he has worked with transmission system planning at the Energy Research Office – EPE, where he currently coordinates the Transmission Study Groups for the Southeast and Midwest regions of Brazil, responsible for the technical and economic analyses of grid expansion solutions."
         },
         'maike-groninger': {
             name: 'Maike Groninger',
@@ -707,7 +713,7 @@
             name: 'Mark Howells',
             title: 'Programme Director',
             institution: 'Climate Compatible Growth (CCG)',
-            bio: "Mark Howells is the CCG Programme Director. He is jointly appointed at Loughborough University and Imperial College, London. Previously at the Royal Institute of Technology in Sweden, he set up their prestigious Energy Systems Analysis programme. He led the development of some of the world's premier open source energy, resource, and spatial electrification planning tools; published in several Nature Journals; coordinated the European Commission's think tank for Energy; is regularly used by the United Nations as a science-policy expert; and is a key contributor to UNDESA's 'Modelling Tools for Sustainable Development Policies' initiative. His work has contributed to efforts for NASA, IRENA, ABB, the World Bank, and others."
+            bio: "Professor Mark Howells is a leading authority in sustainable energy systems analysis, holding joint appointments as a Professor at Loughborough University and a Principal Research Fellow at Imperial College London. His work focuses on developing data-driven tools and policy frameworks to guide the global transition to sustainable energy, influencing policy at the highest levels. He has advised and collaborated with prominent institutions including NASA, Google, the World Bank Group, the United Nations, and the European Commission. Professor Howells is renowned for co-developing the \"Data-to-Deal\" (D2D) framework, a revolutionary approach that empowers countries to build local capacity and unlock investment for national climate transitions. The framework's pioneering implementation in Costa Rica enabled the creation of a data-driven National Decarbonization Plan. The strategy, costing approximately $200,000 in direct expenses per country, has successfully mobilized an estimated $10 billion USD in international climate finance in three examples. Underpinning this success are open-source modelling toolkits and starter data he helped oversee, which have been translated into global public goods and downloaded hundreds of thousands of times. His leadership in the field is substantial. Professor Howells directs the £95 million www.ClimateCompatibleGrowth.com (CCG) research programme for the UK government and is the joint director of the £200 million STEER centre. He formally ran the EC's official Energy thinktank Insight-e, and also serves as Editor-in-Chief of the Energy Strategy Reviews journal. With an H-index of 62 and over 167 peer-reviewed publications, his research continues to shape global energy strategy. He previously served as an Energy Planner at the International Atomic Energy Agency (IAEA) and as Head of the Division of Energy Systems Analysis at KTH Royal Institute of Technology in Sweden. He holds a PhD in Energy Studies from the University of Cape Town."
         },
         'matias-paredes': {
             name: 'Matías Paredes Vergara',
@@ -719,7 +725,7 @@
             name: 'Maximilian Parzen',
             title: 'CEO',
             institution: 'Open Energy Transition',
-            bio: "[Bio will be updated soon]"
+            bio: "Maximilian Parzen serves as CEO of Open Energy Transition (OET), a non-profit dedicated to revolutionizing energy planning through transparency, accessibility, and collaboration. OET's mission centers on empowering better decision-making by harnessing the power of openness, addressing traditional \"black-box\" planning methods that hinder transparent policy decisions. OET provides energy system modelling, policy advisory, software development, open data platforms and capacity building services that enable cost-effective, evidence-based energy transitions for all. Max has been at the forefront of advancing open-source energy modelling alongside a global community, helping tools such as PyPSA (Python for Power System Analysis) evolve from academic origins into operational-grade platforms. The platforms are now operationally deployed by major institutions including ENTSO-E for their Ten-Year Network Development Plan (TYNDP) process, national transmission system operators, and international planning authorities across multiple continents and integrate electricity, heating, transport, industry, and hydrogen sectors into a comprehensive suite."
         },
         'mohamed-ben-ticha': {
             name: 'Mohamed Bassam Ben Ticha',
@@ -755,7 +761,7 @@
             name: 'Ricardo Aguiar',
             title: 'Senior Researcher, Division of Studies and Energy Sustainability',
             institution: 'Directorate-General for Energy and Geology (DGEG), Portugal',
-            bio: "[Bio will be updated soon]"
+            bio: "Ricardo Aguiar holds a PhD in Physics from the University of Lisbon. He was a university professor in climate change, having participated and coordinated several national and municipal mitigation and adaptation studies and plans. He was also a researcher at the National Institute of Industrial Engineering and Technology and then at the National Laboratory of Energy and Geology, active mainly in the fields of energy meteorology, solar energy, and energy use in buildings. He is currently a researcher at the Research and Sustainability Division of the Directorate-General for Energy and Geology, coordinating its national energy and emissions modelling group, which supports the Government in the conception of plans and roadmaps, in the definition of policies and measures, as well as in their monitoring and adjustment."
         },
         'sebastian-sterl': {
             name: 'Sebastian Sterl',
@@ -773,7 +779,7 @@
             name: 'Seoungho Lee',
             title: 'Associate Research Fellow',
             institution: 'Korea Energy Economics Institute (KEEI)',
-            bio: "[Bio will be updated soon]"
+            bio: "Seoungho Lee is an Associate Research Fellow at the Korea Energy Economics Institute (KEEI), where he conducts research within the Department of Long-term Energy Modelling. His work focuses on developing and analysing Korea's Long-term Energy Outlook, supporting evidence-based policymaking through quantitative modelling and scenario analysis. Holding a Ph.D. in Economics, Lee's research interests include energy demand forecasting, macroeconomic linkages in energy transitions, and the integration of statistical insights into national energy planning."
         },
         'simon-benmarraze': {
             name: 'Simon Benmarraze',
@@ -796,14 +802,14 @@
         'tobias-augspurger': {
             name: 'Tobias Augspurger',
             title: 'Head of Data',
-            institution: 'Open Energy Transition',
-            bio: "[Bio will be updated soon]"
+            institution: 'Open Energy Transitions',
+            bio: "Tobias Augspurger is a climate technology innovator and open data / source advocate. In his role as Head of Data at Open Energy Transition, he is currently accelerating the global energy transition by standardizing electrical grid data within OpenStreetMap as part of the MapYourGrid initiative. With a PhD in atmospheric sciences and a background in aerospace engineering, Tobias combines technical expertise in remote sensing with inclusive collaboration. In his spare time, he works on OpenSustain.tech and ClimateTriage.com, connecting and promoting open projects that combat climate change and biodiversity loss."
         },
         'tord-bjorndal': {
             name: 'Tord Bjørndal',
-            title: 'Lead Regulatory Advisor in Energy Economics',
-            institution: 'Ørsted',
-            bio: "[Bio will be updated soon]"
+            title: 'Lead Regulatory Advisor',
+            institution: 'Energy Economics, Ørsted',
+            bio: "Tord Bjørndal has since 2021 worked in Ørsted in Regulatory Affairs, covering a wide range of topics within offshore wind regulation and power and energy markets. Before starting at Ørsted, he worked 13 years at Equinor, where one of his roles included heading up the company's work on long-term energy scenarios."
         },
         'usman-ahmad': {
             name: 'Usman Ahmad',
@@ -822,6 +828,42 @@
             title: 'Head Renewable Energy Transition Roadmaps',
             institution: 'International Renewable Energy Agency (IRENA)',
             bio: "Ricardo Gorini holds an MBA in Finance alongside advanced degrees in Energy (master's and PhD). He joined IRENA in 2018 to lead the REmap program, which develops renewable energy roadmaps and transition outlooks, including the \"World Energy Transitions Outlook 2050.\" Prior to IRENA, Gorini worked in financial markets and mining, and served as a policy consultant specializing in energy regulation. He directed Brazil's Energy Research Office (EPE), the nation's primary institution for energy planning analysis."
+        },
+        'nawal-alhanaee': {
+            name: 'Nawal AlHanaee',
+            title: 'Director of the Future Energy Department',
+            institution: 'Ministry of Energy and Infrastructure, UAE',
+            bio: "Eng. Nawal Alhanaee is the Director of the Future Energy Department at the UAE Ministry of Energy and Infrastructure. She has led the development of the UAE Energy Strategy 2050, the National Hydrogen Strategy 2050, and multiple landmark initiatives advancing the country's clean energy transition. With over two decades of experience in engineering, infrastructure, and policy, she has represented the UAE in global platforms including COP, BRICS, and the G20. Recognized with numerous international awards for innovation and sustainability, she continues to champion transformative energy policies, youth empowerment, and women's leadership in the energy sector."
+        },
+        'natalia-alvarado': {
+            name: 'Natalia Alvarado Sanabria',
+            title: 'Energy Planning Specialist',
+            institution: 'Ministry of Environment and Energy, Costa Rica',
+            bio: "Mechanical and Electrical Engineer with a technical background complemented by a Master's in Atmospheric Sciences with an emphasis on Solar Energy, an MBA, and currently pursuing a Master's in Finance and a Ph.D. Possess professional experience primarily in Costa Rica's energy sector, leading projects in renewable energy—particularly solar and biogas—as well as in the strategic management of energy resources. For over 15 years, I worked at Compañía Nacional de Fuerza y Luz (CNFL), a Costa Rican electricity distribution company, where I was involved in research, development, and executive support to the General Management, including the preparation of the 2023–2027 corporate strategy and performance indicator monitoring. I currently work at the Energy Directorate of the Ministry of Environment and Energy (MINAE), contributing to the development of national energy balances and the formulation of public policies related to the energy sector."
+        },
+        'gayathri-nair': {
+            name: 'Gayathri Nair',
+            title: 'Programme Officer, Technology and Infrastructure for Grid Integration',
+            institution: 'International Renewable Energy Agency (IRENA) IITC',
+            bio: "Gayathri Nair works for IRENA as a Programme Officer-Technology and Infrastructure for Grid Integration. She has led several projects providing technical assistance and capacity building on renewable energy integration into power grids, with specific focus for LDC's and SIDS and working in close collaboration with key country stakeholders. These support power system operators in developing system specific pathways to decarbonize and modernize their power sector by recommending economically viable, advanced technical solutions and policies that encourage the maximum utilization of existing infrastructure while prioritizing renewable generation. She coordinates the creation of grid assessment models and technical documentation, and develops technical products such as reports, webinars, training programs, and workshops that provide technical guidance to power system operators on how to operate the system with high proportions of variable renewable energy and building resilient power systems. Her work also encompasses the new streams at IRENA on grid modernisation and interconnectors. She has a doctorate in electrical engineering and a master's degree in industrial systems and drives. In her PhD she investigated different types of and roles for storage systems for better integration of renewables She worked as an academician in India before joining IRENA."
+        },
+        'alejandro-morales': {
+            name: 'Alejandro Morales Perez',
+            title: 'R&D and Climate Modeller',
+            institution: 'VITO',
+            bio: "[Bio will be updated soon]"
+        },
+        'mirjam-reiner': {
+            name: 'Mirjam Reiner',
+            title: 'Programme Officer',
+            institution: 'International Renewable Energy Agency (IRENA)',
+            bio: "[Bio will be updated soon]"
+        },
+        'unnati-gandhi': {
+            name: 'Unnati Gandhi',
+            title: 'Policy Analyst, Sustainable Jobs Secretariat',
+            institution: 'Natural Resources Canada',
+            bio: "[Bio will be updated soon]"
         }
     };
 
