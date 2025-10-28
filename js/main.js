@@ -1382,8 +1382,8 @@
             },
             {
                 title: "Welcome Dinner",
-                start: "2025-10-29T18:30:00",
-                end: "2025-10-29T21:00:00",
+                start: "2025-10-29T19:00:00",
+                end: "2025-10-29T21:30:00",
                 description: "Welcome dinner for all participants"
             },
             {
