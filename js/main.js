@@ -857,13 +857,13 @@
             name: 'Mirjam Reiner',
             title: 'Programme Officer',
             institution: 'International Renewable Energy Agency (IRENA)',
-            bio: "[Bio will be updated soon]"
+            bio: "Mirjam Reiner is a Programme Officer at the International Renewable Energy Agency (IRENA). She works in the Agency's Knowledge, Policy and Finance Centre, where she coordinates multi-stakeholder projects and analyses at the intersection of energy, sustainable development and just transition. Mirjam has previously worked for a range of different institutions including the Centre for International Sustainable Development Law and UN Environment. She holds a master's degree in international law from the University of Cambridge."
         },
         'unnati-gandhi': {
             name: 'Unnati Gandhi',
             title: 'Policy Analyst, Sustainable Jobs Secretariat',
             institution: 'Natural Resources Canada',
-            bio: "[Bio will be updated soon]"
+            bio: "Unnati works with the Sustainable Jobs Secretariat at Natural Resources Canada, focusing on international collaboration and advancing skills and training for the net-zero energy transition. With over five years of experience in the Canadian federal government, she brings a strong background in policy development ranging from gender-based violence, critical minerals infrastructure development, clean technology and net-zero workforce planning."
         }
     };
 
