@@ -235,9 +235,6 @@
                     <li>Identification of common institutional barriers to alignment and how international partners can help address them.</li>
                     <li>Recommendations for how LTES can directly inform NDC 3.0 preparation in 2025.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '2': {
@@ -275,9 +272,6 @@
                     <li>Understanding of how data transparency and outcome measurement can reduce investor uncertainty and conservative capital allocation.</li>
                     <li>Inputs to GCEP Workstream 1 (Planning to Investment) and, strategically, to the COP30 Action Agenda's goal of bridging ambition with implementation.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '3': {
@@ -312,9 +306,6 @@
                     <li>Examples of partnerships and communication channels that amplified the reach and impact of scenario messages.</li>
                     <li>Insights into participatory methods that strengthen ownership and legitimacy of scenario outcomes.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '4': {
@@ -353,9 +344,6 @@
                     <li>Peer-to-peer exchange of approaches to address staff turnover, funding gaps, and deployment delays.</li>
                     <li>Contributions to LTES Network workstreams on strengthening sovereign planning capacity.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '5': {
@@ -389,9 +377,6 @@
                     <li>Examples of methodological advances from research institutions to stress-test resilience options.</li>
                     <li>Guidance on how policymakers can use scenario evidence to balance cost, resilience, and domestic capability.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '6': {
@@ -426,9 +411,6 @@
                     <li>Lessons on governance and planning measures that help countries manage demand growth without slowing the energy transition.</li>
                     <li>Contributions to the LTES Network dialogue on evolving scenario content to include new structural drivers of demand.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '7': {
@@ -464,9 +446,6 @@
                     <li>Practical recommendations for governments on building institutional capacity and governance frameworks for responsible AI adoption.</li>
                     <li>Contributions to LTES dialogues on how emerging digital tools can be integrated into national planning ecosystems.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         },
         '8': {
@@ -500,9 +479,6 @@
                     <li>Insights on how evidence from scenarios can build and sustain cross-sector coalitions (government, labor, industry, communities) that protect just transition policies from political shifts.</li>
                     <li>Contributions to the GCEP workstreams on "Planning-to-Investment" and "Technical & Implementation Capacity" by showing how just transition priorities can be integrated into scenario-based planning ecosystems.</li>
                 </ul>
-            `,
-            runOfShow: `
-                <p><em>Detailed session agenda and discussion questions will be shared with participants closer to the event date.</em></p>
             `
         }
     };
@@ -1316,7 +1292,6 @@
                 }
 
                 document.getElementById('sessionModalConcept').innerHTML = session.concept;
-                document.getElementById('sessionModalRunOfShow').innerHTML = session.runOfShow;
 
                 // Show modal
                 modal.classList.add('is-open');
