@@ -249,11 +249,11 @@
                 { id: 'simon-benmarraze', name: 'Simon Benmarraze', role: 'Moderator' }
             ],
             speakers: [
+                { id: 'lucas-oliveira', name: 'Lucas Simões de Oliveira', role: 'Scene Setting' },
                 { id: 'gayathri-nair', name: 'Gayathri Nair', role: 'Scene Setting' },
                 { id: 'arturo-alarcon', name: 'Arturo Alarcon' },
                 { id: 'dennis-volk', name: 'Dennis Volk' },
                 { id: 'cornelia-schenke', name: 'Cornelia Schenke' },
-                { id: 'lucas-oliveira', name: 'Lucas Simões de Oliveira' },
                 { id: 'alvin-jose', name: 'Alvin Jose' }
             ],
             concept: `
@@ -289,9 +289,9 @@
                 { id: 'charlie-heaps', name: 'Charlie Heaps', role: 'Moderator' }
             ],
             speakers: [
-                { id: 'nadeem-goussous', name: 'Nadeem Goussous' },
-                { id: 'evangelos-panos', name: 'Evangelos Panos' },
-                { id: 'franziska-bock', name: 'Franziska Bock' },
+                { id: 'nadeem-goussous', name: 'Nadeem Goussous', role: 'Introduction' },
+                { id: 'evangelos-panos', name: 'Evangelos Panos', role: 'Scene Setting' },
+                { id: 'franziska-bock', name: 'Franziska Bock', role: 'Scene Setting' },
                 { id: 'andrzej-ceglarz', name: 'Andrzej Ceglarz' },
                 { id: 'sebastien-debia', name: 'Sebastien Debia' },
                 { id: 'lars-jensen', name: 'Lars Georg Jensen' }
@@ -479,7 +479,7 @@
             ],
             speakers: [
                 { id: 'mirjam-reiner', name: 'Mirjam Reiner', role: 'Scene-setting Presentation' },
-                { id: 'arnaldo-santos', name: 'Arnaldo dos Santos Junior' },
+                { id: 'arnaldo-santos', name: 'Arnaldo dos Santos Junior', role: 'Scene-setting Presentation' },
                 { id: 'matias-paredes', name: 'Matias Paredes Vergara' },
                 { id: 'lars-jensen', name: 'Lars Georg Jensen' },
                 { id: 'liza-pangilinan', name: 'Liza V. Pangilinan' },
